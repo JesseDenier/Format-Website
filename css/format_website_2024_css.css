@@ -148,12 +148,10 @@ footer {
     background-color: #99d7db;
     border-top: 5px solid #c2e6e9;
     overflow: auto;
-    padding: 1vw 4vw;
-}
-
-.Contact_Us_Left {
-    width: 26vw;
-    float: left;
+    padding: 1vw 3vw 2vw 3vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     font-size: min(1.9vw, 24px);
 }
 
