@@ -148,11 +148,11 @@ footer {
     background-color: #99d7db;
     border-top: 5px solid #c2e6e9;
     overflow: auto;
-    padding: 1vw 3vw 2vw 3vw;
+    padding: 1vw 3vw;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    font-size: min(1.9vw, 24px);
+    font-size: min(1.9vw, 14px);
 }
 
 .Left_Aligned {
@@ -168,14 +168,14 @@ footer {
 }
 
 .GSA_Logo {
-    width: min(6vw, 75px);
+    width: min(6vw, 45px);
     margin-left: 1vw;
 }
 
 .LinkedIn_Logo {
-    width: min(3vw, 50px);
+    width: min(3vw, 25px);
     position: relative;
-    top: 0.75vw;
+    top: 0.4vw;
 }
 
 @media screen and (max-width: 992px) {
