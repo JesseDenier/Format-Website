@@ -52,6 +52,10 @@ strong {
 
 address {
     font-style: normal;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 0;
+    margin-right: 0;
 }
 
 header img {
@@ -144,42 +148,34 @@ footer {
     background-color: #99d7db;
     border-top: 5px solid #c2e6e9;
     overflow: auto;
-    padding: 1vw 4vw;
-}
-
-.Contact_Us_Left {
-    width: 26vw;
-    float: left;
+    padding: 1vw 3vw 2vw 3vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     font-size: min(1.9vw, 24px);
 }
 
-#Contact_Us_Website_Logo {
-    width: 20vw;
-    margin-top: 1vw;
+.Left_Aligned {
+    text-align: left;
 }
 
-.Contact_Us_Right {
-    position: relative;
-    top: -1.5vw;
-    width: 66vw;
-    float: right;
+.Right_Aligned {
     text-align: right;
-    font-size: min(1.9vw, 24px);
 }
 
-.Contact_Us_Right * {
+.Right_Aligned div * {
     display: inline-block;
 }
 
-#GSA_Logo {
+.GSA_Logo {
     width: min(6vw, 75px);
     margin-left: 1vw;
 }
 
-#LinkedIn_Logo {
+.LinkedIn_Logo {
     width: min(3vw, 50px);
     position: relative;
-    top: .75vw;
+    top: 0.75vw;
 }
 
 @media screen and (max-width: 992px) {
