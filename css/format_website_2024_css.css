@@ -184,6 +184,7 @@ footer {
     text-align: right;
 }
 
+/* Makes right side of footer similar height to left side. */
 .Right_Aligned p {
     margin-bottom: 0;
     font-size: clamp(8px, 1.3vw, 16px);
