@@ -212,10 +212,13 @@ footer {
     }
 }
 
-/* Adjusts flexbox elements to be 1 column. */
+/* Adjusts flexbox elements to be 1 column with extra space on sides. */
 @media screen and (max-width: 576px) {
     .Centered_Flexbox * {
         width: 100%;
-        margin: 0 9%;
+    }
+
+    .Centered_Flexbox>* {
+        padding: 1% 9%;
     }
 }
