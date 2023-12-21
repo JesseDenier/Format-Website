@@ -54,6 +54,7 @@ header {
     border-top: 5px solid #c2e6e9;
     border-bottom: 5px solid #c2e6e9;
     background-color: #99d7db;
+    z-index: 1000;
 }
 
 /* Sets the position and size of the static logo on the header. */
@@ -144,6 +145,7 @@ h2 {
     width: 100%;
     flex-wrap: wrap;
     justify-content: center;
+    margin: 20px 0;
 }
 
 /* Standard element for a flex box that makes 3 neat columns. */
@@ -155,11 +157,30 @@ h2 {
     letter-spacing: .025vw;
     color: #5E5E5E;
     font-weight: lighter;
+    margin: 0;
 }
 
-/* Adds some extra white space above and below the Clients content.*/
-.Clients .Centered_Flexbox {
-    margin: 20px 0;
+/* Allows p to center to box holding image. */
+.Service {
+    position: relative;
+}
+
+/* Centers the text to the service div and adds visibility. */
+.Service p {
+    color: black;
+    text-shadow: 1px 1px 1px #FFFFFF;
+    position: absolute;
+    margin: auto;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    font-weight: normal;
+    font-size: 1.55vw;
+    display: none;
+}
+
+.Service:hover p {
+    display: block;
 }
 
 /* This is necessary to make it so the hover affect doesn't happen on the padding */
@@ -177,6 +198,7 @@ h2 {
     color: #FFFFFF;
     font-size: 12px;
     width: 100%;
+    box-shadow: 5px 5px 5px gray;
 }
 
 /* Hides the client quotes until the buttons are hovered. */
@@ -188,6 +210,7 @@ h2 {
 .Client:hover button {
     background-color: #99d7db;
     color: #000000;
+    box-shadow: inset 2px 2px 2px gray;
 }
 
 /* Shows the client quotes when the buttons are hovered. */
@@ -246,7 +269,7 @@ footer {
     top: 0.4vw;
 }
 
-/* Removes the fixed navigation menu when screen is too small, and adjusts flexbox elements to be 2 column. Client needed to change because of margins.*/
+/* Removes the fixed navigation menu when screen is too small, and adjusts flexbox elements to be 2 column. Client needed to change because of margins. Service p needed to change because setting any pixel based font size doesn't work with images.*/
 @media screen and (max-width: 992px) {
     .Centered_Flexbox>* {
         width: 50%;
@@ -259,9 +282,13 @@ footer {
     nav {
         display: none;
     }
+
+    .Service p {
+        font-size: 2.4vw;
+    }
 }
 
-/* Adjusts flexbox elements to be 1 column with extra space on sides. Client needed to change because of margins.*/
+/* Adjusts flexbox elements to be 1 column with extra space on sides. Client needed to change because of margins. Service p needed to change because setting any pixel based font size doesn't work with images.*/
 @media screen and (max-width: 576px) {
     .Centered_Flexbox>* {
         width: 100%;
@@ -273,5 +300,9 @@ footer {
 
     .Centered_Flexbox>* {
         padding: 1% 9%;
+    }
+
+    .Service p {
+        font-size: 4.5vw;
     }
 }
