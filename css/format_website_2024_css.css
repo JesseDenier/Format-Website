@@ -1,135 +1,139 @@
+/* Allows simpler use of padding, border, and margin. */
+/* Also fixes the issue of the static header taking up the top of the screen when you hashtag link to a spot on the website. */
 * {
+    box-sizing: border-box;
+    scroll-margin-top: 80px;
+}
+
+/* Sets a default font for the website. */
+body {
+    font-family: 'Quicksand', sans-serif;
+    font-feature-settings: "liga" 0;
+}
+
+/* Sets a secondary font for impactful elements on the website. */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+strong {
+    font-family: 'Oswald', sans-serif;
+    font-feature-settings: "liga" 0;
+}
+
+/* This adds a little letter spacing to strong text. */
+strong {
+    letter-spacing: .1vw;
+}
+
+/* Removes the default underline/color applied to links. */
+a {
     text-decoration: none;
     color: #000000;
 }
 
-body {
-    font-family: 'Quicksand', sans-serif;
-    font-feature-settings: "liga" 0;
-    width: 100%;
-    height: 100%;
-    margin: 0%;
-    padding: 0%;
+/* Removes the default italicize applied to addresses. */
+address {
+    font-style: normal;
 }
 
+/* Builds the static blue bar at the top of the website. */
 header {
     position: fixed;
     top: 0px;
     left: 0px;
-    width: 100vw;
-    height: 70px;
+    width: 100%;
+    height: 80px;
     border-top: 5px solid #c2e6e9;
     border-bottom: 5px solid #c2e6e9;
     background-color: #99d7db;
 }
 
+/* Sets the position and size of the static logo on the header. */
+header img {
+    position: fixed;
+    width: 50px;
+    top: 15px;
+    left: 3%;
+}
+
+/* Sets the position and style of the static title on the header. */
 h1 {
+    position: fixed;
+    top: 2px;
+    left: calc(3% + 65px);
     font-size: 30px;
     letter-spacing: 1.5px;
-    position: fixed;
-    font-family: 'Oswald', sans-serif;
-    font-feature-settings: "liga" 0;
-    top: -3px;
-    left: 90px;
-    text-decoration: none;
 }
 
-h2 {
-    font-family: 'Oswald', sans-serif;
-    font-feature-settings: "liga" 0;
-    letter-spacing: 0.25vw;
-    padding-left: 3vw;
-    font-size: 2.75vw;
-    margin-top: 1vw;
-}
-
-strong {
-    font-family: 'Oswald', sans-serif;
-    font-feature-settings: "liga" 0;
-    letter-spacing: .1vw;
-}
-
-address {
-    font-style: normal;
-    margin-top: 1em;
-    margin-bottom: 1em;
-    margin-left: 0;
-    margin-right: 0;
-}
-
-header img {
-    width: 50px;
-    position: fixed;
-    top: 15px;
-    left: 25px;
-}
-
+/* Sets the position of the static navigation menu on the header when using a wide browser. */
 nav {
-    display: flex;
-    justify-content: right;
-    margin-top: 25px;
-    margin-right: 10px;
+    float: right;
+    margin: 26px 3% 0px 0px;
     letter-spacing: .75px;
 }
 
-nav a {
-    padding-right: 20px;
+/* Adds seperation between elements in the navigation menu. */
+nav * {
+    padding-left: 20px;
 }
 
-#Home,
-#About,
-#Services,
-#Clients,
-#Samples,
-#Contact {
-    scroll-margin-top: 80px;
+/* Sets the size position and color of the banner image below the header. */
+.Home img {
+    width: 100%;
+    margin-top: 80px;
+    background-color: #ffffff;
+    display: block;
 }
 
+/* Sets the font style and position of the main tagline below the banner image. */
+.Home strong {
+    display: block;
+    width: 100%;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #5a5a5a;
+    font-size: 1.7vw;
+    letter-spacing: .25vw;
+    padding-bottom: 2.5vw;
+    padding-top: 2.5vw;
+}
+
+/* Sets the color scheme of all section headers. */
 .Section_Header {
-    clear: both;
     background-color: #c2e6e9;
     border-top: 5px solid #99d7db;
     border-bottom: 5px solid #99d7db;
 }
 
+/* Sets the style for all section headers main font. */
+h2 {
+    font-size: clamp(20px, 2.75vw, 28px);
+    letter-spacing: 0.25vw;
+    padding-left: 3%;
+    margin-top: 1vw;
+}
+
+/* Sets the style for all section headers secondary font. */
 .Section_Tagline {
-    padding-left: 3vw;
-    font-size: 1.75vw;
-    margin-top: -2vw;
+    padding-left: 3%;
+    font-size: clamp(18px, 1.75vw, 25px);
+    margin-top: clamp(-10px, -1.5vw, 0px);
     font-weight: lighter;
-}
-
-.Home {
-    background-color: #5a5a5a;
-}
-
-.Home img {
-    width: 100vw;
-    margin-top: 70px;
-    background-color: #ffffff;
-}
-
-.Home p {
-    font-size: 1.7vw;
-    letter-spacing: .1em;
-    display: inline-block;
-    width: 100%;
-    text-align: center;
-    color: #FFFFFF;
-    font-family: 'Oswald', sans-serif;
-    font-feature-settings: "liga" 0;
-    font-weight: bold;
 }
 
 .Centered_Flexbox {
     display: flex;
+    width: 100%;
     flex-wrap: wrap;
     justify-content: center;
 }
 
 .Centered_Flexbox>* {
-    width: 28vw;
-    margin: 1vw calc(8vw /3);
+    width: calc(100%/3);
+    padding: 1% 3%;
     text-align: center;
     font-size: 1.1vw;
     letter-spacing: .025vw;
@@ -178,7 +182,7 @@ footer {
 
 @media screen and (max-width: 992px) {
     .Centered_Flexbox * {
-        width: 42vw;
+        width: 50%;
     }
 
     nav {
@@ -188,6 +192,6 @@ footer {
 
 @media screen and (max-width: 576px) {
     .Centered_Flexbox * {
-        width: 50vw;
+        width: 100%;
     }
 }
