@@ -34,9 +34,14 @@ a {
     color: #000000;
 }
 
-/* Removes the default italicize applied to addresses. */
+/* Removes the default italicize applied to addresses and makes it match <p>. */
 address {
     font-style: normal;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
 }
 
 /* Builds the static blue bar at the top of the website. */
@@ -157,40 +162,46 @@ h2 {
     width: 100%;
 }
 
+/* Builds the blue footer at the bottom. */
 footer {
     background-color: #99d7db;
     border-top: 5px solid #c2e6e9;
     overflow: auto;
-    padding: 1vw 3vw;
+    padding: 1vw 3%;
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
-    font-size: min(1.9vw, 14px);
+    font-size: clamp(12px, 1.9vw, 16px);
 }
 
+/* Aligns text left. */
 .Left_Aligned {
     text-align: left;
 }
 
+/* Aligns text right. */
 .Right_Aligned {
     text-align: right;
 }
 
+/* Keeps the logos with their text. */
 .Right_Aligned div * {
     display: inline-block;
 }
 
+/* Sets logo size and position. */
 .GSA_Logo {
     width: min(6vw, 45px);
     margin-left: 1vw;
 }
 
+/* Sets logo size and position. */
 .LinkedIn_Logo {
     width: min(3vw, 25px);
     position: relative;
     top: 0.4vw;
 }
 
+/* Removes the fixed navigation menu when screen is too small, and adjusts flexbox elements to be 2 column. */
 @media screen and (max-width: 992px) {
     .Centered_Flexbox * {
         width: 50%;
@@ -201,6 +212,7 @@ footer {
     }
 }
 
+/* Adjusts flexbox elements to be 1 column. */
 @media screen and (max-width: 576px) {
     .Centered_Flexbox * {
         width: 100%;
