@@ -157,6 +157,37 @@ h2 {
     font-weight: lighter;
 }
 
+/* Adds some extra white space above and below the Clients content.*/
+.Clients .Centered_Flexbox {
+    margin: 20px 0;
+}
+
+/* Sets the style and size of the client buttons. */
+.Client button {
+    height: 48pt;
+    border-radius: 8px;
+    background-color: #5E5E5E;
+    color: #FFFFFF;
+    font-size: 12px;
+    width: 75%;
+}
+
+/* Hides the client quotes until the buttons are hovered. */
+.Client p {
+    display: none;
+}
+
+/* Changes the color of the buttons when hovered. */
+.Client:hover button {
+    background-color: #99d7db;
+    color: #000000;
+}
+
+/* Shows the client quotes when the buttons are hovered. */
+.Client:hover p {
+    display: block;
+}
+
 /* Causes the sample images to fill the flex elements. */
 .Samples img {
     width: 100%;
