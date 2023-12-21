@@ -170,7 +170,8 @@ footer {
     padding: 1vw 3%;
     display: flex;
     justify-content: space-between;
-    font-size: clamp(12px, 1.9vw, 16px);
+    flex-wrap: wrap;
+    font-size: clamp(8px, 1.9vw, 16px);
 }
 
 /* Aligns text left. */
@@ -183,13 +184,18 @@ footer {
     text-align: right;
 }
 
+.Right_Aligned p {
+    margin-bottom: 0;
+    font-size: clamp(8px, 1.3vw, 16px);
+}
+
 /* Keeps the logos with their text. */
 .Right_Aligned div * {
     display: inline-block;
 }
 
 /* Sets logo size and position. */
-.GSA_Logo {
+.Right_Aligned img {
     width: min(6vw, 45px);
     margin-left: 1vw;
 }
