@@ -163,6 +163,7 @@ h2 {
 /* Allows p to center to box holding image. */
 .Service {
     position: relative;
+    max-width: 450px;
 }
 
 /* Centers the text to the service div and adds visibility. */
@@ -175,7 +176,7 @@ h2 {
     left: 50%;
     transform: translateY(-50%) translateX(-50%);
     font-weight: normal;
-    font-size: 1.55vw;
+    font-size: clamp(0px, 1.55vw, 19.5px);
     display: none;
 }
 
