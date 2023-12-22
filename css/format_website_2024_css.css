@@ -1,3 +1,12 @@
+/* Adds repeatable variables for the CSS to call to. */
+:root {
+    --dark_blue: #99d7db;
+    --light_blue: #c2e6e9;
+    --white: #ffffff;
+    --dark_gray: #5a5a5a;
+    --black: #000000;
+}
+
 /* Allows simpler use of padding, border, and margin. */
 /* Also fixes the issue of the static header taking up the top of the screen when you hashtag link to a spot on the website. */
 * {
@@ -31,7 +40,7 @@ strong {
 /* Removes the default underline/color applied to links. */
 a {
     text-decoration: none;
-    color: #000000;
+    color: var(--black);
 }
 
 /* Removes the default italicize applied to addresses and makes it match <p>. */
@@ -51,9 +60,9 @@ header {
     left: 0px;
     width: 100%;
     height: 80px;
-    border-top: 5px solid #c2e6e9;
-    border-bottom: 5px solid #c2e6e9;
-    background-color: #99d7db;
+    border-top: 5px solid var(--light_blue);
+    border-bottom: 5px solid var(--light_blue);
+    background-color: var(--dark_blue);
     z-index: 1000;
 }
 
@@ -96,7 +105,7 @@ nav * {
 .Home img {
     width: 100%;
     margin-top: 80px;
-    background-color: #ffffff;
+    background-color: var(--white);
 }
 
 /* Sets the font size and position of the main tagline below the banner image. */
@@ -107,8 +116,8 @@ nav * {
     width: 100%;
     margin: 0;
     padding: 2.5vw;
-    color: #FFFFFF;
-    background-color: #5a5a5a;
+    color: var(--white);
+    background-color: var(--dark_gray);
 }
 
 /* The only way to increase the letter spacing without making it a header */
@@ -118,9 +127,9 @@ nav * {
 
 /* Sets the color scheme of all section headers. */
 .Section_Header {
-    background-color: #c2e6e9;
-    border-top: 5px solid #99d7db;
-    border-bottom: 5px solid #99d7db;
+    background-color: var(--light_blue);
+    border-top: 5px solid var(--dark_blue);
+    border-bottom: 5px solid var(--dark_blue);
 }
 
 /* Sets the style for all section headers main font. */
@@ -155,7 +164,7 @@ h2 {
     text-align: center;
     font-size: clamp(16px, 1.1vw, 20px);
     letter-spacing: .025vw;
-    color: #5E5E5E;
+    color: var(--dark_gray);
     font-weight: lighter;
     margin: 0;
 }
@@ -169,7 +178,7 @@ h2 {
 /* Centers the text to the service div and adds visibility. */
 .Service p {
     color: black;
-    text-shadow: 1px 1px 1px #FFFFFF;
+    text-shadow: 1px 1px 1px var(--white);
     position: absolute;
     margin: auto;
     top: 50%;
@@ -195,11 +204,11 @@ h2 {
 .Client button {
     height: 48pt;
     border-radius: 8px;
-    background-color: #5E5E5E;
-    color: #FFFFFF;
+    background-color: var(--dark_gray);
+    color: var(--white);
     font-size: 12px;
     width: 100%;
-    box-shadow: 5px 5px 5px gray;
+    box-shadow: 5px 5px 5px var(--dark_gray);
 }
 
 /* Hides the client quotes until the buttons are hovered. */
@@ -209,9 +218,9 @@ h2 {
 
 /* Changes the color of the buttons when hovered. */
 .Client:hover button {
-    background-color: #99d7db;
-    color: #000000;
-    box-shadow: inset 2px 2px 2px gray;
+    background-color: var(--dark_blue);
+    color: var(--black);
+    box-shadow: inset 2px 2px 2px var(--dark_gray);
 }
 
 /* Shows the client quotes when the buttons are hovered. */
@@ -226,8 +235,8 @@ h2 {
 
 /* Builds the blue footer at the bottom. */
 footer {
-    background-color: #99d7db;
-    border-top: 5px solid #c2e6e9;
+    background-color: var(--dark_blue);
+    border-top: 5px solid var(--light_blue);
     overflow: auto;
     padding: 1vw 3%;
     display: flex;
