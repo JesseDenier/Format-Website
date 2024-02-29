@@ -1,324 +1,410 @@
 <!-- The default HTML and links to both CSSs, and necessary fonts. -->
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>The Format Group</title>
+    <link rel="stylesheet" href="assets/css/normalize.css" />
+    <link rel="stylesheet" href="assets/css/format_website_2024_css.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Quicksand:300,500"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Cardo:400,700%7COswald"
+      rel="stylesheet"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  </head>
 
-<head>
-	<meta charset="UTF-8">
-	<title>The Format Group</title>
-	<link rel="stylesheet" href="css/normalize.css">
-	<link rel="stylesheet" href="css/format_website_2024_css.css">
-	<link href="https://fonts.googleapis.com/css?family=Quicksand:300,500" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Cardo:400,700%7COswald" rel="stylesheet">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-</head>
+  <body>
+    <!-- The fixed position header and navigation at the top. -->
+    <header>
+      <img
+        class="Company_Logo"
+        src="assets/Images/Logo.svg"
+        alt="The Format Group Logo"
+      />
+      <h1 class="Name"><a href="#Home">THE FORMAT GROUP</a></h1>
+      <nav class="Nav_List">
+        <a href="#Home">HOME</a>
+        <a href="#About">ABOUT US</a>
+        <a href="#Services">SERVICES</a>
+        <a href="#Clients">CLIENTS</a>
+        <a href="#Samples">SAMPLES</a>
+        <a href="#Contact">CONTACT US</a>
+      </nav>
+    </header>
 
-<body>
+    <!-- The image, grey box, and tagline. -->
+    <section class="Home" id="Home">
+      <img
+        class="Banner"
+        src="assets/Images/Banner.png"
+        alt="A child writing, teenagers working on laptops, and adults on a jobsite."
+      />
+      <p>
+        <strong
+          >A full-service instructional design house<br />specializing in career
+          technical<br />training for all ages.</strong
+        >
+      </p>
+    </section>
 
-	<!-- The fixed position header and navigation at the top. -->
-	<header>
-		<img class="Company_Logo" src="Images/Logo.svg" alt="The Format Group Logo">
-		<h1 class="Name"><a href="#Home">THE FORMAT GROUP</a></h1>
-		<nav class="Nav_List">
-			<a href="#Home">HOME</a>
-			<a href="#About">ABOUT US</a>
-			<a href="#Services">SERVICES</a>
-			<a href="#Clients">CLIENTS</a>
-			<a href="#Samples">SAMPLES</a>
-			<a href="#Contact">CONTACT US</a>
-		</nav>
-	</header>
+    <!-- The About Us section which is mostly text.-->
+    <section class="About" id="About">
+      <div class="Section_Header">
+        <h2>ABOUT US</h2>
+        <p class="Section_Tagline">
+          Elevate your educational publishing with The Format Group.<br />We are
+          the missing piece to your production challenges.
+        </p>
+      </div>
+      <div class="Centered_Flexbox">
+        <p>
+          <strong>Format fits your needs.</strong><br />Format aims to be your
+          top-tier service provider. Whether it's the whole project or just
+          parts, we're ready to discuss your requirements.
+        </p>
+        <p>
+          <strong>Format fits your style.</strong><br />Format understands your
+          uniqueness, ensuring a seamless experience. Trust us to swiftly adapt
+          to your goals and erase any worries.
+        </p>
+        <p>
+          <strong>Format fits your products.</strong><br />Format has over 200
+          years of combined experience. We have worked on everything from
+          printed textbooks to entire LMS systems.
+        </p>
+        <p>
+          <strong>Format fits your process.</strong><br />Need a project manager
+          or efficient image archiving? Our professionals ensure a seamless
+          experience for your multilevel product.
+        </p>
+        <p>
+          <strong>Format fits your market.</strong><br />Format adapts to
+          diverse educational markets, including early education, K-12, adult
+          education, on-site training, and career technical training.
+        </p>
+        <p>
+          <strong>Format fits you.</strong><br />Format customizes services to
+          your needs, addressing the challenges of your business. We take pride
+          in accommodating your distinct requirements.
+        </p>
+      </div>
+    </section>
 
-	<!-- The image, grey box, and tagline. -->
-	<section class="Home" id="Home">
-		<img class="Banner" src="Images/Banner.png"
-			alt="A child writing, teenagers working on laptops, and adults on a jobsite.">
-		<p><strong>A full-service instructional design house<br>specializing in career
-				technical<br>training for all
-				ages.</strong></p>
-	</section>
+    <!-- The Services section which includes images and centered text. -->
+    <section class="Services" id="Services">
+      <div class="Section_Header">
+        <h2>SERVICES</h2>
+        <p class="Section_Tagline">
+          The Format Group offers end-to-end educational content solutions,<br />from
+          LMS creation to digital and print content development.
+        </p>
+      </div>
+      <div class="Centered_Flexbox">
+        <div class="Service">
+          <img
+            src="assets/Images/Serv_Cont.svg"
+            alt="Content Development Icon"
+          />
+          <p>
+            <strong>Content Development</strong><br />Craft engaging,
+            age-appropriate content with a partnership between your subject
+            matter experts and the Format team, enhancing existing educational
+            programs and unlocking new possibilities.
+          </p>
+        </div>
+        <div class="Service">
+          <img src="assets/Images/Serv_Ill.svg" />
+          <p>
+            <strong>Modernization</strong><br />Embrace the educational
+            evolution with Format's expertise in eLearning, LMS integration,
+            Learning Modules, and Online Testing. Let us seamlessly bring your
+            content into the digital era.
+          </p>
+        </div>
+        <div class="Service">
+          <img src="assets/Images/Serv_Pre.svg" />
+          <p>
+            <strong>Interactivity Addition</strong><br />Embark on a journey of
+            innovation with Format. Collaborate with our experts to craft fresh,
+            immersive instructional materials that captivate and educate.
+          </p>
+        </div>
+        <div class="Service">
+          <img src="assets/Images/Serv_Photo.svg" />
+          <p>
+            <strong>Photo Research</strong><br />Navigate the complexities of
+            photo research effortlessly with Format, ensuring budget-friendly,
+            captivating visuals that seamlessly integrate into your
+            content-creation journey.
+          </p>
+        </div>
+        <div class="Service">
+          <img src="assets/Images/Serv_Art.svg" />
+          <p>
+            <strong>Art Creation</strong><br />From image creation and editing
+            to 2-D line art and 3-D rendering, Format's art department brings
+            your vision to life. Need innovative and impressive animation? We've
+            got you covered.
+          </p>
+        </div>
+        <div class="Service">
+          <img src="assets/Images/Serv_Pro.svg" />
+          <p>
+            <strong>Project Management</strong><br />With Format's 200+ years of
+            collective experience, we can manage, schedule, and monitor your
+            projects from inception to completion with unparalleled
+            effectiveness and continuity.
+          </p>
+        </div>
+        <div class="Service">
+          <img src="assets/Images/Serv_Design.svg" />
+          <p>
+            <strong>Design and Layout</strong><br />Create or refine content
+            with Format's award-winning instructional design. Our tailored
+            templates and precise layout will compliment and elevate your
+            educational materials.
+          </p>
+        </div>
+        <div class="Service">
+          <img src="assets/Images/Serv_Edit.svg" />
+          <p>
+            <strong>Editorial Improvement</strong><br />Elevate your content
+            with Format's suite of editorial services, including writing,
+            copyediting, proofreading, fact-checking, cross-referencing,
+            styling, indexing, and translation.
+          </p>
+        </div>
+        <div class="Service">
+          <img src="assets/Images/Serv_Comp.svg" />
+          <p>
+            <strong>Organization and Documentation</strong><br />Efficiently
+            organize, document and ensure seamless workflows with Format. Trust
+            us for streamlined processes, up-to-the-minute communication, and
+            effective documentation.
+          </p>
+        </div>
+      </div>
+    </section>
 
-	<!-- The About Us section which is mostly text.-->
-	<section class="About" id="About">
-		<div class="Section_Header">
-			<h2>ABOUT US</h2>
-			<p class="Section_Tagline">Elevate your educational publishing with The Format Group.<br>We are the missing
-				piece to your production challenges.</p>
-		</div>
-		<div class="Centered_Flexbox">
-			<p><strong>Format fits your needs.</strong><br>Format aims to be your top-tier service provider. Whether
-				it's
-				the whole project or just parts, we're ready to discuss your requirements.</p>
-			<p><strong>Format fits your style.</strong><br>Format understands your uniqueness, ensuring a seamless
-				experience. Trust us to swiftly adapt to your goals and erase any worries.</p>
-			<p><strong>Format fits your products.</strong><br>Format has over 200 years of combined experience. We have
-				worked on everything from printed textbooks to entire LMS systems.</p>
-			<p><strong>Format fits your process.</strong><br>Need a project manager or efficient image archiving? Our
-				professionals ensure a seamless experience for your multilevel product.</p>
-			<p><strong>Format fits your market.</strong><br>Format adapts to diverse educational markets, including
-				early
-				education, K-12, adult education, on-site training, and career technical training.</p>
-			<p><strong>Format fits you.</strong><br>Format customizes services to your needs, addressing the challenges
-				of
-				your business. We take pride in accommodating your distinct requirements.
-			</p>
-		</div>
-	</section>
+    <!-- The Clients sections involving hover buttons. Could be improved by placing text below all buttons. -->
+    <section class="Clients" id="Clients">
+      <div class="Section_Header">
+        <h2>CLIENTS</h2>
+        <p class="Section_Tagline">
+          We value our clients, big and small.<br />Here is what a few of them
+          have to say.
+        </p>
+      </div>
+      <div class="Centered_Flexbox">
+        <div class="Client">
+          <button>ASM Press</button>
+          <p>
+            Format provided page production, art design and purchase, photo
+            research, and price negotiation for various college-level biology
+            textbooks published by the American Society for Microbiology (ASM),
+            the “oldest and largest single life science membership organization
+            in the world.”
+          </p>
+        </div>
+        <div class="Client">
+          <button>Carpenter's International Training Fund</button>
+          <p>
+            “When the Carpenters International Training Fund (CITF) wanted to
+            have its training materials professionally published, we looked to
+            Format as a full-service production house. From the beginning, the
+            staff's responses to CITF's needs have been remarkable—fast,
+            flexible, and always with highest consideration for the quality of
+            the product. The Format Group combines enormous experience,
+            technical know-how, and understanding of its customers while working
+            to stick to budgets and schedules in spite of delays along the line.
+            CITF is justly proud of the finished books and Format has good
+            reason to share in that pride.” - President
+          </p>
+        </div>
+        <div class="Client">
+          <button>Columbia University Press</button>
+          <p>
+            provided page production, art design and purchase, and price
+            negotiation for numerous college-level environmental science
+            textbooks published by Columbia University Press, which “seeks to
+            enhance Columbia University's educational and research mission by
+            publishing outstanding original works by scholars and other
+            intellectuals.”
+          </p>
+        </div>
+        <div class="Client">
+          <button>Discovery Education</button>
+          <p>
+            designed assessment worksheets for Discovery Education, which offers
+            standards-based supplementary resources for the K-12 classroom.
+          </p>
+        </div>
+        <div class="Client">
+          <button>Ed Fi Alliance</button>
+          <p>
+            We provided page production, copyediting, and art development for Ed
+            Fi Alliance, an advanced Learning Management System comprised of a
+            common data standard and technology suite developed for use by
+            schools, school districts, and states to help track student
+            performance.
+          </p>
+        </div>
+        <div class="Client">
+          <button>Gleason Group</button>
+          <p>
+            “In working with The Format Group we have been impressed with their
+            communications and 'can-do' attitude. No matter how crazy our
+            schedule, or how difficult the project, they bring a calm assurance
+            to the job—and, most impressive of all, they deliver on time and on
+            budget! They are true professionals; it is always a pleasure to work
+            with them.” - Owner
+          </p>
+        </div>
+        <div class="Client">
+          <button>Houghton Mifflin Harcourt</button>
+          <p>
+            “I just wanted to thank you for coming in today and being so
+            proactive in helping us find solutions to issues that involve so
+            many people. I appreciate your flexibility, creative ideas, and
+            positive attitude! I'm so happy we can count on you as our vendor to
+            get this difficult project done.” - Production Coordinator
+          </p>
+        </div>
+        <div class="Client">
+          <button>McGraw Hill</button>
+          <p>
+            “…my compliments to the writer. It is really a very good manuscript.
+            The style is positively engaging, no mean feat when writing about
+            shoring! Can't give too many kudos to the writer.” - Consultant
+          </p>
+        </div>
+        <div class="Client">
+          <button>Oxford University Press</button>
+          <p>
+            Format provided page production, art design and purchase, photo
+            research, and price negotiation for numerous college-level biology
+            and neuroscience textbooks for Sinauer, an imprint of Oxford
+            University Press.
+          </p>
+        </div>
+        <div class="Client">
+          <button>Pascal Press</button>
+          <p>
+            We provided page production, art design and purchase, photo
+            research, and price negotiation for numerous mathematics textbooks
+            published by Pascal Press, an Australian education company offering
+            mathematics curriculum for grades K-5.
+          </p>
+        </div>
+        <div class="Client">
+          <button>Pearson</button>
+          <p>
+            provided page production, art design and purchase, photo research,
+            and price negotiation for a culinary arts textbook published by
+            Pearson for the Culinary Institute of America. In addition to the
+            previously mentioned services, we also assisted in writing a
+            keyboarding and computer applications textbook for Pearson Education
+            Inc
+          </p>
+        </div>
+        <div class="Client">
+          <button>Wiley</button>
+          <p>
+            provided page production, art design and purchase, photo research,
+            and price negotiation for various TEKS standards correlation guides
+            as well as marketing tools for Wiley, a prominent publisher in
+            higher education.
+          </p>
+        </div>
+      </div>
+      <div class="Clients_Space"></div>
+    </section>
 
-	<!-- The Services section which includes images and centered text. -->
-	<section class="Services" id="Services">
-		<div class="Section_Header">
-			<h2>SERVICES</h2>
-			<p class="Section_Tagline">The Format Group offers end-to-end educational content solutions,<br>from LMS
-				creation to digital and print content
-				development.</p>
-		</div>
-		<div class="Centered_Flexbox">
-			<div class="Service">
-				<img src="Images/Serv_Cont.svg" alt="Content Development Icon" />
-				<p><strong>Content Development</strong><br>Craft engaging, age-appropriate content with a partnership
-					between
-					your subject matter experts and the Format team,
-					enhancing existing educational programs and unlocking new possibilities.</p>
-			</div>
-			<div class="Service">
-				<img src="Images/Serv_Ill.svg" />
-				<p><strong>Modernization</strong><br>Embrace the educational evolution
-					with Format's expertise in eLearning,
-					LMS
-					integration, Learning Modules, and Online
-					Testing. Let us seamlessly bring your content into the digital era.</p>
-			</div>
-			<div class="Service">
-				<img src="Images/Serv_Pre.svg" />
-				<p><strong>Interactivity Addition</strong><br>Embark on a journey of innovation with Format. Collaborate
-					with
-					our experts to craft fresh, immersive instructional
-					materials that captivate and educate.</p>
-			</div>
-			<div class="Service">
-				<img src="Images/Serv_Photo.svg" />
-				<p><strong>Photo Research</strong><br>Navigate the complexities of photo research effortlessly with
-					Format,
-					ensuring budget-friendly, captivating visuals that
-					seamlessly integrate into your content-creation journey.</p>
-			</div>
-			<div class="Service">
-				<img src="Images/Serv_Art.svg" />
-				<p><strong>Art Creation</strong><br>From image creation and editing to 2-D line art and 3-D rendering,
-					Format's
-					art department brings your vision to life.
-					Need innovative and impressive animation? We've got you covered.</p>
-			</div>
-			<div class="Service">
-				<img src="Images/Serv_Pro.svg" />
-				<p><strong>Project Management</strong><br>With Format's 200+ years of collective experience, we can
-					manage,
-					schedule, and monitor your projects from inception to
-					completion with unparalleled effectiveness and continuity.</p>
-			</div>
-			<div class="Service">
-				<img src="Images/Serv_Design.svg" />
-				<p><strong>Design and Layout</strong><br>Create or refine content with Format's award-winning
-					instructional
-					design. Our tailored templates and precise layout
-					will compliment and elevate your educational materials.</p>
-			</div>
-			<div class="Service">
-				<img src="Images/Serv_Edit.svg" />
-				<p><strong>Editorial Improvement</strong><br>Elevate your content with Format's suite of editorial
-					services,
-					including writing, copyediting, proofreading,
-					fact-checking, cross-referencing, styling, indexing, and translation.</p>
-			</div>
-			<div class="Service">
-				<img src="Images/Serv_Comp.svg" />
-				<p><strong>Organization and Documentation</strong><br>Efficiently organize, document and ensure seamless
-					workflows with Format.
-					Trust us for streamlined processes, up-to-the-minute communication, and effective documentation.</p>
-			</div>
-		</div>
-	</section>
+    <!-- The Samples section which involves 3 seperate articles, each containing a title and linked image. -->
+    <section class="Samples" id="Samples">
+      <div class="Section_Header">
+        <h2>SAMPLES</h2>
+        <p class="Section_Tagline">
+          Feel free to review some of our previous work.<br />We work tirelessly
+          for our clients satisfaction, and it shows.
+        </p>
+      </div>
+      <div class="Centered_Flexbox">
+        <article>
+          <p><strong>Print Sample</strong></p>
+          <a href="assets/PDFs/Elementary_PDF_for_Website.pdf" target="_blank">
+            <img
+              src="assets/Images/Samp_Elementary.png"
+              alt="A page from an elementary school textbook"
+            />
+          </a>
+        </article>
+        <article>
+          <p><strong>eBook Sample</strong></p>
+          <a
+            href="assets/PDFs/MiddleHigh_School_PDF_for_Website.pdf"
+            target="_blank"
+          >
+            <img
+              src="assets/Images/Samp_MiddleHigh.png"
+              alt="A page from a high school textbook"
+            />
+          </a>
+        </article>
+        <article>
+          <p><strong>eLearning Sample</strong></p>
+          <a
+            href="https://formatllc.com/samples/FormatGroup/#/"
+            target="_blank"
+          >
+            <img
+              src="assets/Images/eLearning.png"
+              alt="An interactive sample"
+            />
+          </a>
+        </article>
+      </div>
+    </section>
 
-	<!-- The Clients sections involving hover buttons. Could be improved by placing text below all buttons. -->
-	<section class="Clients" id="Clients">
-		<div class="Section_Header">
-			<h2>CLIENTS</h2>
-			<p class="Section_Tagline">We value our clients, big and small.<br>Here is what a few of them have to say.
-			</p>
-		</div>
-		<div class="Centered_Flexbox">
-			<div class="Client">
-				<button>ASM Press</button>
-				<p>Format provided page production, art design and purchase, photo research, and price negotiation for
-					various college-level biology textbooks published by the American Society for Microbiology (ASM),
-					the
-					“oldest and largest single life science membership organization in the world.”</p>
-			</div>
-			<div class="Client">
-				<button>Carpenter's International Training Fund</button>
-				<p>“When the Carpenters International Training Fund (CITF) wanted to have its training materials
-					professionally published, we looked to Format as a full-service production house. From the
-					beginning,
-					the staff's responses to CITF's needs have been remarkable—fast, flexible, and always with highest
-					consideration for the quality of the product. The Format Group combines enormous experience,
-					technical
-					know-how, and understanding of its customers while working to stick to budgets and schedules in
-					spite of
-					delays along the line. CITF is justly proud of the finished books and Format has good reason to
-					share in
-					that pride.” - President</p>
-			</div>
-			<div class="Client">
-				<button>Columbia University Press</button>
-				<p>provided page production, art design and purchase, and
-					price
-					negotiation for numerous college-level
-					environmental science textbooks published by Columbia University Press, which “seeks to enhance
-					Columbia
-					University's educational and research mission by publishing outstanding original works by scholars
-					and
-					other
-					intellectuals.”</p>
-			</div>
-			<div class="Client">
-				<button>Discovery Education</button>
-				<p>designed assessment worksheets for Discovery Education, which
-					offers
-					standards-based supplementary
-					resources for the K-12 classroom.</p>
-			</div>
-			<div class="Client">
-				<button>Ed Fi Alliance</button>
-				<p>We provided page production, copyediting, and art development for Ed
-					Fi
-					Alliance, an advanced Learning
-					Management System comprised of a common data standard and technology suite developed for use by
-					schools,
-					school districts, and states to help track student performance.</p>
-			</div>
-			<div class="Client">
-				<button>Gleason Group</button>
-				<p>“In working with The Format Group we have been impressed with their
-					communications and 'can-do' attitude. No
-					matter how crazy our schedule, or how difficult the project, they bring a calm assurance to the
-					job—and,
-					most impressive of all, they deliver on time and on budget! They are true professionals; it is
-					always a
-					pleasure to work with them.” - Owner</p>
-			</div>
-			<div class="Client">
-				<button>Houghton Mifflin Harcourt</button>
-				<p>“I just wanted to thank you for coming in today and being
-					so
-					proactive in helping us find solutions to issues
-					that involve so many people. I appreciate your flexibility, creative ideas, and positive attitude!
-					I'm
-					so
-					happy we can count on you as our vendor to get this difficult project done.” - Production
-					Coordinator
-				</p>
-			</div>
-			<div class="Client">
-				<button>McGraw Hill</button>
-				<p>“…my compliments to the writer. It is really a very good manuscript. The
-					style is positively engaging, no
-					mean feat when writing about shoring! Can't give too many kudos to the writer.” - Consultant</p>
-			</div>
-			<div class="Client">
-				<button>Oxford University Press</button>
-				<p>Format provided page production, art design and purchase,
-					photo
-					research, and price negotiation for numerous
-					college-level biology and neuroscience textbooks for Sinauer, an imprint of Oxford University Press.
-				</p>
-			</div>
-			<div class="Client">
-				<button>Pascal Press</button>
-				<p>We provided page production, art design and purchase, photo research,
-					and
-					price negotiation for numerous
-					mathematics textbooks published by Pascal Press, an Australian education company offering
-					mathematics
-					curriculum for grades K-5.</p>
-			</div>
-			<div class="Client">
-				<button>Pearson</button>
-				<p>provided page production, art design and purchase, photo research, and price
-					negotiation for a culinary
-					arts textbook published by Pearson for the Culinary Institute of America. In addition to the
-					previously
-					mentioned services, we also assisted in writing a keyboarding and computer applications textbook for
-					Pearson
-					Education Inc</p>
-			</div>
-			<div class="Client">
-				<button>Wiley</button>
-				<p>provided page production, art design and purchase, photo research, and price
-					negotiation for various TEKS
-					standards correlation guides as well as marketing tools for Wiley, a prominent publisher in higher
-					education.</p>
-			</div>
-		</div>
-		<div class="Clients_Space"></div>
-	</section>
-
-	<!-- The Samples section which involves 3 seperate articles, each containing a title and linked image. -->
-	<section class="Samples" id="Samples">
-		<div class="Section_Header">
-			<h2>SAMPLES</h2>
-			<p class="Section_Tagline">Feel free to review some of our previous work.<br>We work tirelessly for our
-				clients
-				satisfaction, and it shows.</p>
-		</div>
-		<div class="Centered_Flexbox">
-			<article>
-				<p><strong>Print Sample</strong></p>
-				<a href="/PDFs/Elementary_PDF_for_Website.pdf" target="_blank">
-					<img src="Images/Samp_Elementary.png" alt="A page from an elementary school textbook" />
-				</a>
-			</article>
-			<article>
-				<p><strong>eBook Sample</strong></p>
-				<a href="/PDFs/MiddleHigh_School_PDF_for_Website.pdf" target="_blank">
-					<img src="Images/Samp_MiddleHigh.png" alt="A page from a high school textbook" />
-				</a>
-			</article>
-			<article>
-				<p><strong>eLearning Sample</strong></p>
-				<a href="https://formatllc.com/samples/FormatGroup/#/" target="_blank">
-					<img src="Images/eLearning.png" alt="An interactive sample" />
-				</a>
-			</article>
-		</div>
-	</section>
-
-	<!-- The footer section which is made of too many divs for clean and concise code. Designed this way to allow each side to be aligned. -->
-	<footer class="Contact" id="Contact">
-		<div class="Left_Aligned">
-			<address>2307 Thornton Rd, Ste 203 <br>Austin, TX, 78704</address>
-			<p>Email: <a
-					href="mailto:admin@format.com?subject=From%20Website%20Link%20-%20">admin@formatllc.com<br></a>Phone:
-				<a href="tel:5124739900">512.473.9900</a>
-			</p>
-			<img src="Images/Contact_Us_Website_Logo.svg" alt="Format Logo" />
-		</div>
-		<div class="Right_Aligned">
-			<div class="Inline_Block">
-				<p>The Format Group is a GSA approved contractor.<br>This is a federal assurance that our expertise in
-					publishing<br>your materials will meet or exceed your standards.</p>
-				<img src="Images/GSA.png" alt="GSA Logo" />
-			</div>
-			<div class="Inline_Block">
-				<p>The Format Group is a Women-Owned Small Business (WOSB).<br>This certification highlights our
-					commitment
-					to
-					diversity, and<br>dedication to excellence in every aspect of our operations.
-				</p>
-				<img src="Images/WOSB-Certified.png" alt="WOSB Certificate" />
-			</div>
-			<p>&#169; Format. All rights reserved.</p>
-		</div>
-	</footer>
-</body>
-
+    <!-- The footer section which is made of too many divs for clean and concise code. Designed this way to allow each side to be aligned. -->
+    <footer class="Contact" id="Contact">
+      <div class="Left_Aligned">
+        <address>2307 Thornton Rd, Ste 203 <br />Austin, TX, 78704</address>
+        <p>
+          Email:
+          <a href="mailto:admin@format.com?subject=From%20Website%20Link%20-%20"
+            >admin@formatllc.com<br /></a
+          >Phone:
+          <a href="tel:5124739900">512.473.9900</a>
+        </p>
+        <img
+          src="assets/Images/Contact_Us_Website_Logo.svg"
+          alt="Format Logo"
+        />
+      </div>
+      <div class="Right_Aligned">
+        <div class="Inline_Block">
+          <p>
+            The Format Group is a GSA approved contractor.<br />This is a
+            federal assurance that our expertise in publishing<br />your
+            materials will meet or exceed your standards.
+          </p>
+          <img src="assets/Images/GSA.png" alt="GSA Logo" />
+        </div>
+        <div class="Inline_Block">
+          <p>
+            The Format Group is a Women-Owned Small Business (WOSB).<br />This
+            certification highlights our commitment to diversity, and<br />dedication
+            to excellence in every aspect of our operations.
+          </p>
+          <img src="assets/Images/WOSB-Certified.png" alt="WOSB Certificate" />
+        </div>
+        <p>&#169; Format. All rights reserved.</p>
+      </div>
+    </footer>
+  </body>
 </html>
