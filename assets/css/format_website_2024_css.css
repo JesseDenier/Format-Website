@@ -87,6 +87,7 @@ address {
 .logoName {
   font-size: 30px;
   letter-spacing: 1.5px;
+  transition: all 0.25s;
 }
 
 .nav {
@@ -134,6 +135,7 @@ address {
 /* Sets the size position and color of the banner image below the header. */
 .Home img {
   width: 100%;
+  max-width: 1000px;
   background-color: var(--white);
 }
 
@@ -176,6 +178,12 @@ h2 {
   font-weight: lighter;
 }
 
+.About .Centered_Flexbox p {
+  letter-spacing: 0.05em;
+  line-height: 2em;
+  margin: 0;
+}
+
 /* Standard full-width centered flexbox. */
 .Centered_Flexbox {
   display: flex;
@@ -192,7 +200,6 @@ h2 {
   text-align: center;
   font-size: clamp(16px, 1.1vw, 20px);
   letter-spacing: 0.025vw;
-  color: var(--dark_gray);
   font-weight: lighter;
   margin: 0;
 }
@@ -297,19 +304,9 @@ footer address {
   row-gap: 10px;
 }
 
-/* Keeps the logos with their text. */
-.rightAlignedBlock {
-  display: flex;
-  margin: 0;
-  padding: 0;
-  font-size: clamp(8px, 1.3vw, 16px);
-  column-gap: 1.5vw;
-  align-items: center;
-}
-
 /* Sets logo size and position. */
 .Right_Aligned img {
-  width: min(6vw, 45px);
+  width: min(24vw, 500px);
 }
 
 /* Removes the fixed navigation menu when screen is too small, and adjusts flexbox elements to be 2 column. Client needed to change because of margins. Service p needed to change because setting any pixel based font size doesn't work with images.*/
@@ -385,5 +382,8 @@ footer address {
 
   .Service p {
     font-size: clamp(0px, 4vw, 20px);
+  }
+  .logoName {
+    font-size: 24px;
   }
 }
