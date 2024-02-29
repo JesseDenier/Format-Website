@@ -266,6 +266,8 @@ h2 {
 /* Causes the sample images to fill the flex elements. */
 .Samples img {
   width: 100%;
+  box-shadow: 5px 5px 5px var(--light_blue);
+  border: 1px solid var(--dark_gray);
 }
 
 /* Builds the blue footer at the bottom. */
