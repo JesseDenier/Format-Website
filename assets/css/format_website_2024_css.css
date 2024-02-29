@@ -75,6 +75,7 @@ address {
 .logo {
   display: flex;
   column-gap: 20px;
+  align-items: center;
 }
 
 /* Sets the position and size of the static logo on the header. */
