@@ -18,6 +18,7 @@
 body {
   font-family: "Quicksand", sans-serif;
   font-feature-settings: "liga" 0;
+  padding-top: 80px;
 }
 
 /* Sets a secondary font for impactful elements on the website. */
@@ -40,7 +41,7 @@ strong {
 /* Removes the default underline/color applied to links. */
 a {
   text-decoration: none;
-  color: var(--black);
+  color: inherit;
 }
 
 /* Removes the default italicize applied to addresses and makes it match <p>. */
@@ -53,46 +54,75 @@ address {
   margin-inline-end: 0px;
 }
 
-/* Builds the static blue bar at the top of the website. */
-header {
-  position: fixed;
-  top: 0px;
-  left: 0px;
-  width: 100%;
-  height: 80px;
+.header {
+  background-color: var(--dark_blue);
   border-top: 5px solid var(--light_blue);
   border-bottom: 5px solid var(--light_blue);
-  background-color: var(--dark_blue);
+  position: fixed;
+  width: 100%;
+  top: 0;
   z-index: 1000;
 }
 
+.headerContent {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 3%;
+  height: 70px;
+}
+
+.logo {
+  display: flex;
+  column-gap: 20px;
+}
+
 /* Sets the position and size of the static logo on the header. */
-header img {
-  position: fixed;
+.logoImage {
   width: 50px;
-  top: 15px;
-  left: 3%;
 }
 
 /* Sets the position and style of the static title on the header. */
-h1 {
-  position: fixed;
-  top: 2px;
-  left: calc(3% + 65px);
+.logoName {
   font-size: 30px;
   letter-spacing: 1.5px;
 }
 
-/* Sets the position of the static navigation menu on the header when using a wide browser. */
-nav {
-  float: right;
-  margin: 26px 3% 0px 0px;
-  letter-spacing: 0.75px;
+.nav {
+  transition: all 0.5s;
 }
 
-/* Adds seperation between elements in the navigation menu. */
-nav * {
-  padding-left: 20px;
+.navList {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  column-gap: 20px;
+}
+
+.navItem {
+}
+
+.navLink {
+  color: var(--black);
+  font-size: 16px;
+  transition: all 0.5s;
+}
+
+.navLink:hover {
+  color: var(--dark_gray);
+}
+
+.hamburger {
+  display: none;
+  cursor: pointer;
+}
+
+.hamburgerBar {
+  height: 2px;
+  width: 27px;
+  background: var(--black);
+  margin: 5px 0;
+  transition: all 0.5s;
 }
 
 .Home {
@@ -104,7 +134,6 @@ nav * {
 /* Sets the size position and color of the banner image below the header. */
 .Home img {
   width: 100%;
-  margin-top: 80px;
   background-color: var(--white);
 }
 
@@ -280,16 +309,53 @@ footer {
 
 /* Removes the fixed navigation menu when screen is too small, and adjusts flexbox elements to be 2 column. Client needed to change because of margins. Service p needed to change because setting any pixel based font size doesn't work with images.*/
 @media screen and (max-width: 992px) {
+  /* Adds extra classes that can be called by the javascript based on user inputs.*/
+  .nav--open {
+    visibility: visible !important;
+    opacity: 1 !important;
+  }
+
+  .hamburger--open .hamburgerBar:nth-child(1) {
+    transform: translateY(7px) rotate(45deg);
+  }
+
+  .hamburger--open .hamburgerBar:nth-child(2) {
+    opacity: 0;
+  }
+
+  .hamburger--open .hamburgerBar:nth-child(3) {
+    transform: translateY(-7px) rotate(-45deg);
+  }
+
+  .nav {
+    position: fixed;
+    top: 80px;
+    left: 0px;
+    background-color: var(--dark_blue);
+    border-bottom: 5px solid var(--light_blue);
+    width: 100%;
+    padding: 10px 0 10px;
+    visibility: hidden;
+    opacity: 0%;
+  }
+
+  .navList {
+    flex-direction: column;
+    align-items: center;
+    row-gap: 10px;
+    margin: 0;
+  }
+
+  .hamburger {
+    display: block;
+  }
+
   .Centered_Flexbox > * {
     width: 50%;
   }
 
   .Client {
     width: 44%;
-  }
-
-  nav {
-    display: none;
   }
 
   .Service p {

@@ -15,25 +15,51 @@
       rel="stylesheet"
     />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script src="assets/js/script.js" defer></script>
   </head>
 
   <body>
     <!-- The fixed position header and navigation at the top. -->
-    <header>
-      <img
-        class="Company_Logo"
-        src="assets/Images/Logo.svg"
-        alt="The Format Group Logo"
-      />
-      <h1 class="Name"><a href="#Home">THE FORMAT GROUP</a></h1>
-      <nav class="Nav_List">
-        <a href="#Home">HOME</a>
-        <a href="#About">ABOUT US</a>
-        <a href="#Services">SERVICES</a>
-        <a href="#Clients">CLIENTS</a>
-        <a href="#Samples">SAMPLES</a>
-        <a href="#Contact">CONTACT US</a>
-      </nav>
+    <header class="header">
+      <div class="headerContent">
+        <div class="logo">
+          <img
+            class="logoImage"
+            src="assets/Images/Logo.svg"
+            alt="The Format Group Logo"
+          />
+          <h1 class="logoName">
+            <a href="#Home">THE FORMAT GROUP</a>
+          </h1>
+        </div>
+        <nav class="nav">
+          <ul class="navList">
+            <li class="navItem">
+              <a href="#Home" class="navLink">HOME</a>
+            </li>
+            <li class="navItem">
+              <a href="#About" class="navLink">ABOUT US</a>
+            </li>
+            <li class="navItem">
+              <a href="#Services" class="navLink">SERVICES</a>
+            </li>
+            <li class="navItem">
+              <a href="#Clients" class="navLink">CLIENTS</a>
+            </li>
+            <li class="navItem">
+              <a href="#Samples" class="navLink">SAMPLES</a>
+            </li>
+            <li class="navItem">
+              <a href="#Contact" class="navLink">CONTACT US</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="hamburger">
+          <div class="hamburgerBar"></div>
+          <div class="hamburgerBar"></div>
+          <div class="hamburgerBar"></div>
+        </div>
+      </div>
     </header>
 
     <!-- The image, grey box, and tagline. -->
