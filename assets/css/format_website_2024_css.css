@@ -273,38 +273,44 @@ footer {
   font-size: clamp(8px, 1.9vw, 16px);
 }
 
+footer p,
+footer address {
+  margin: 5px 0px;
+}
+
 /* Aligns text left. */
 .Left_Aligned {
+  display: flex;
   text-align: left;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 /* Aligns text right. */
 .Right_Aligned {
+  display: flex;
   text-align: right;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
 }
 
 /* Makes right side of footer similar height to left side. */
 .Right_Aligned p {
-  margin-bottom: 0;
   font-size: clamp(8px, 1.3vw, 16px);
 }
 
 /* Keeps the logos with their text. */
-.Right_Aligned div * {
-  display: inline-block;
+.rightAlignedBlock {
+  display: flex;
+  margin: 0;
+  padding: 0;
 }
 
 /* Sets logo size and position. */
 .Right_Aligned img {
   width: min(6vw, 45px);
   margin-left: 1vw;
-}
-
-/* Sets logo size and position. */
-.LinkedIn_Logo {
-  width: min(3vw, 25px);
-  position: relative;
-  top: 0.4vw;
 }
 
 /* Removes the fixed navigation menu when screen is too small, and adjusts flexbox elements to be 2 column. Client needed to change because of margins. Service p needed to change because setting any pixel based font size doesn't work with images.*/
