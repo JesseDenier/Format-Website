@@ -7,10 +7,8 @@
   --black: #000000;
 }
 
-/* Allows simpler use of padding, border, and margin. */
-/* Also fixes the issue of the static header taking up the top of the screen when you hashtag link to a spot on the website. */
+/* Fixes the issue of the static header taking up the top of the screen when you hashtag link to a spot on the website. */
 * {
-  box-sizing: border-box;
   scroll-margin-top: 80px;
 }
 
@@ -30,28 +28,7 @@ h5,
 h6,
 strong {
   font-family: "Oswald", sans-serif;
-  font-feature-settings: "liga" 0;
-}
-
-/* This adds a little letter spacing to strong text. */
-strong {
   letter-spacing: 0.1vw;
-}
-
-/* Removes the default underline/color applied to links. */
-a {
-  text-decoration: none;
-  color: inherit;
-}
-
-/* Removes the default italicize applied to addresses and makes it match <p>. */
-address {
-  font-style: normal;
-  display: block;
-  margin-block-start: 1em;
-  margin-block-end: 1em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
 }
 
 /* Creates a fixed header */
@@ -297,7 +274,7 @@ h2 {
   border: 2px solid var(--dark_gray);
 }
 
-/* Builds the blue footer at the bottom. */
+/* Builds the footer at the bottom. */
 footer {
   background-color: var(--dark_blue);
   border-top: 5px solid var(--light_blue);
