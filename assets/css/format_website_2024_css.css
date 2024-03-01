@@ -54,6 +54,7 @@ address {
   margin-inline-end: 0px;
 }
 
+/* Creates a fixed header */
 .header {
   background-color: var(--dark_blue);
   border-top: 5px solid var(--light_blue);
@@ -64,6 +65,7 @@ address {
   z-index: 1000;
 }
 
+/* Builds a horizontal flex blox seperating the logo area and the nav bar area. */
 .headerContent {
   display: flex;
   align-items: center;
@@ -72,6 +74,7 @@ address {
   height: 70px;
 }
 
+/* Builds a horizontal flex box for the logo and the company name. */
 .logo {
   display: flex;
   column-gap: 20px;
@@ -90,9 +93,7 @@ address {
   transition: all 0.25s;
 }
 
-.nav {
-}
-
+/* Displays the navItems nicely without default styles. */
 .navList {
   list-style: none;
   padding: 0;
@@ -100,24 +101,23 @@ address {
   column-gap: 20px;
 }
 
-.navItem {
-}
-
+/* Sets the navLinks to a nice color and size, and allows them to shift to grey on hover nicely. */
 .navLink {
   color: var(--black);
   font-size: 16px;
   transition: all 0.5s;
 }
-
 .navLink:hover {
   color: var(--dark_gray);
 }
 
+/* Sets a "hidden" hamburger menu icon that shows as clickable. */
 .hamburger {
   display: none;
   cursor: pointer;
 }
 
+/* Creates thin bars that transition nicely. */
 .hamburgerBar {
   height: 2px;
   width: 27px;
@@ -126,6 +126,7 @@ address {
   transition: all 0.5s;
 }
 
+/* Builds out the home area. */
 .Home {
   display: flex;
   flex-wrap: wrap;
@@ -178,6 +179,7 @@ h2 {
   font-weight: lighter;
 }
 
+/* Improves the readability of the About Us section. */
 .About .Centered_Flexbox p {
   letter-spacing: 0.05em;
   line-height: 2em;
@@ -226,11 +228,13 @@ h2 {
   transition: all 0.8s;
 }
 
+/* Reveals the services text on hover. */
 .Service:hover p {
   visibility: visible;
   opacity: 1;
 }
 
+/* Spins and ghosts the services image on hover. */
 .Service:hover img {
   transform: rotate(1turn);
   transition: all 0.4s;
@@ -254,6 +258,7 @@ h2 {
   width: 100%;
   box-shadow: 5px 5px 5px var(--dark_gray);
   transition: all 0.5s;
+  cursor: pointer;
 }
 
 /* Hides the client quotes until the buttons are hovered. */
@@ -283,8 +288,10 @@ h2 {
   width: 100%;
   box-shadow: 5px 5px 5px var(--light_blue);
   border: 1px solid var(--dark_gray);
+  transition: all 0.25s;
 }
 
+/* Makes the border larger and the drop shadow deeper on hover. */
 .Samples img:hover {
   box-shadow: 7px 7px 7px var(--dark_blue);
   border: 2px solid var(--dark_gray);
@@ -302,6 +309,7 @@ footer {
   font-size: clamp(8px, 1.9vw, 16px);
 }
 
+/* Removes default margins from footer p and address. */
 footer p,
 footer address {
   margin: 0px;
@@ -340,18 +348,18 @@ footer address {
     transition: all 0.5s !important;
   }
 
+  /* Hides one and spins the other 2 hamburger bars to make an X */
   .hamburger--open .hamburgerBar:nth-child(1) {
     transform: translateY(7px) rotate(45deg);
   }
-
   .hamburger--open .hamburgerBar:nth-child(2) {
     opacity: 0;
   }
-
   .hamburger--open .hamburgerBar:nth-child(3) {
     transform: translateY(-7px) rotate(-45deg);
   }
 
+  /* Sets the navigation to hidden and vertical */
   .nav {
     position: fixed;
     top: 80px;
@@ -363,7 +371,6 @@ footer address {
     visibility: hidden;
     opacity: 0%;
   }
-
   .navList {
     flex-direction: column;
     align-items: center;
@@ -371,18 +378,22 @@ footer address {
     margin: 0;
   }
 
+  /* Shows the hamburger icon. */
   .hamburger {
     display: block;
   }
 
+  /* Standard element for a flex box that makes 2 neat columns. */
   .Centered_Flexbox > * {
     width: 50%;
   }
 
+  /* Decreases client width. */
   .client {
     width: 44%;
   }
 
+  /* Decreases service font size so they fit. */
   .Service p {
     font-size: 2.4vw;
   }
@@ -394,17 +405,22 @@ footer address {
     width: 100%;
   }
 
+  /* Decreases client width further. */
   .client {
     width: 94%;
   }
 
+  /* Adjusts padding for widest Flexbox*/
   .Centered_Flexbox > * {
     padding: 1% 9%;
   }
 
+  /* Decreases service font size further so they fit. */
   .Service p {
     font-size: clamp(0px, 4vw, 20px);
   }
+
+  /* Makes the company name smaller so it fits. */
   .logoName {
     font-size: 24px;
   }
