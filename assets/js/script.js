@@ -13,3 +13,12 @@ navItemEls.forEach((navItemEl) => {
     hamburgerEl.classList.toggle("hamburger--open");
   });
 });
+
+const clientBtnEls = document.querySelectorAll(".clientBtn");
+const clientQuoteEls = document.querySelectorAll(".clientQuote");
+
+clientBtnEls.forEach((clientBtnEl, index) => {
+  clientBtnEl.addEventListener("click", () => {
+    clientQuoteEls[index].classList.toggle("clientQuote--open");
+  });
+});
