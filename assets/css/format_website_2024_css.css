@@ -173,7 +173,7 @@ h2 {
 /* Sets the style for all section headers secondary font. */
 .Section_Tagline {
   padding-left: 3%;
-  font-size: clamp(18px, 1.75vw, 25px);
+  font-size: clamp(16px, 1.75vw, 25px);
   margin-top: clamp(-10px, -1.5vw, 0px);
   font-weight: lighter;
 }
