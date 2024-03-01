@@ -270,6 +270,11 @@ h2 {
   border: 1px solid var(--dark_gray);
 }
 
+.Samples img:hover {
+  box-shadow: 7px 7px 7px var(--dark_blue);
+  border: 2px solid var(--dark_gray);
+}
+
 /* Builds the blue footer at the bottom. */
 footer {
   background-color: var(--dark_blue);
