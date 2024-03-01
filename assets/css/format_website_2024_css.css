@@ -221,22 +221,31 @@ h2 {
   transform: translateY(-50%) translateX(-50%);
   font-weight: normal;
   font-size: clamp(0px, 1.55vw, 19.5px);
-  display: none;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.8s;
 }
 
 .Service:hover p {
-  display: block;
+  visibility: visible;
+  opacity: 1;
+}
+
+.Service:hover img {
+  transform: rotate(1turn);
+  transition: all 0.4s;
+  opacity: 0.4;
 }
 
 /* This is necessary to make it so the hover affect doesn't happen on the padding */
-.Client {
+.client {
   width: calc(76% / 3);
   padding: 0;
   margin: 1% 3%;
 }
 
 /* Sets the style and size of the client buttons. */
-.Client button {
+.client button {
   height: 48pt;
   border-radius: 8px;
   background-color: var(--dark_gray);
@@ -244,23 +253,29 @@ h2 {
   font-size: 12px;
   width: 100%;
   box-shadow: 5px 5px 5px var(--dark_gray);
+  transition: all 0.5s;
 }
 
 /* Hides the client quotes until the buttons are hovered. */
-.Client p {
-  display: none;
+.client p {
+  opacity: 0;
+  height: 0;
+  overflow: hidden;
+  transition: all 1s;
 }
 
 /* Changes the color of the buttons when hovered. */
-.Client:hover button {
+.client:hover button {
   background-color: var(--dark_blue);
   color: var(--black);
   box-shadow: inset 2px 2px 2px var(--dark_gray);
 }
 
 /* Shows the client quotes when the buttons are hovered. */
-.Client:hover p {
-  display: block;
+.clientQuote--open {
+  opacity: 1 !important;
+  height: auto !important;
+  transition: all 2s;
 }
 
 /* Causes the sample images to fill the flex elements. */
@@ -364,7 +379,7 @@ footer address {
     width: 50%;
   }
 
-  .Client {
+  .client {
     width: 44%;
   }
 
@@ -379,7 +394,7 @@ footer address {
     width: 100%;
   }
 
-  .Client {
+  .client {
     width: 94%;
   }
 
