@@ -221,11 +221,14 @@ h2 {
   transform: translateY(-50%) translateX(-50%);
   font-weight: normal;
   font-size: clamp(0px, 1.55vw, 19.5px);
-  display: none;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.5s;
 }
 
 .Service:hover p {
-  display: block;
+  visibility: visible;
+  opacity: 1;
 }
 
 /* This is necessary to make it so the hover affect doesn't happen on the padding */
