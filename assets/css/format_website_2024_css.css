@@ -313,7 +313,7 @@ footer address {
 
 /* Sets logo size and position. */
 .Right_Aligned img {
-  width: min(24vw, 500px);
+  width: min(24vw, 200px);
 }
 
 /* Removes the fixed navigation menu when screen is too small, and adjusts flexbox elements to be 2 column. Client needed to change because of margins. Service p needed to change because setting any pixel based font size doesn't work with images.*/
@@ -380,16 +380,12 @@ footer address {
 @media screen and (max-width: 576px) {
   .Centered_Flexbox > * {
     width: 100%;
+    padding: 1% 9%;
   }
 
   /* Decreases client width further. */
   .client {
     width: 94%;
-  }
-
-  /* Adjusts padding for widest Flexbox*/
-  .Centered_Flexbox > * {
-    padding: 1% 9%;
   }
 
   /* Decreases service font size further so they fit. */
