@@ -7,6 +7,22 @@
   --black: #000000;
 }
 
+/* Removes the default underline/color applied to links. */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Removes the default italicize applied to addresses. */
+address {
+  font-style: normal;
+}
+
+/* Allows simpler use of padding, border, and margin. */
+* {
+  box-sizing: border-box;
+}
+
 /* Fixes the issue of the static header taking up the top of the screen when you hashtag link to a spot on the website. */
 * {
   scroll-margin-top: 80px;
@@ -17,6 +33,7 @@ body {
   font-family: "Quicksand", sans-serif;
   font-feature-settings: "liga" 0;
   padding-top: 80px;
+  margin: 0;
 }
 
 /* Sets a secondary font for impactful elements on the website. */
