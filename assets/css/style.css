@@ -7,6 +7,15 @@
   --black: #000000;
 }
 
+/*! Normalization of default HTML elements. */
+/* Allows simpler use of padding, border, and margin. + Fixes hashtag scrolling issue caused by fixed header. */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  scroll-margin-top: 80px;
+}
+
 /* Removes the default underline/color applied to links. */
 a {
   text-decoration: none;
@@ -18,22 +27,11 @@ address {
   font-style: normal;
 }
 
-/* Allows simpler use of padding, border, and margin. */
-* {
-  box-sizing: border-box;
-}
-
-/* Fixes the issue of the static header taking up the top of the screen when you hashtag link to a spot on the website. */
-* {
-  scroll-margin-top: 80px;
-}
-
 /* Sets a default font for the website. */
 body {
   font-family: "Quicksand", sans-serif;
   font-feature-settings: "liga" 0;
   padding-top: 80px;
-  margin: 0;
 }
 
 /* Sets a secondary font for impactful elements on the website. */
@@ -48,6 +46,51 @@ strong {
   letter-spacing: 0.1vw;
 }
 
+/*! Repeated Section Headers and Content Flexboxes */
+/* Sets the color scheme of all section headers. */
+.Section_Header {
+  background-color: var(--light_blue);
+  border-top: 5px solid var(--dark_blue);
+  border-bottom: 5px solid var(--dark_blue);
+  padding: clamp(5px, 2vw, 10px);
+}
+
+/* Sets the style for all section headers main font. */
+h2 {
+  font-size: clamp(20px, 2.75vw, 27.5px);
+  letter-spacing: 0.25vw;
+  padding-left: 3%;
+}
+
+/* Sets the style for all section headers secondary font. */
+.Section_Tagline {
+  padding-left: 3%;
+  font-size: clamp(16px, 1.75vw, 20px);
+  margin-top: 5px;
+  font-weight: lighter;
+}
+
+/* Standard full-width centered flexbox. */
+.Centered_Flexbox {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+/* Standard element for a flex box that makes 3 neat columns. */
+.Centered_Flexbox > * {
+  width: clamp(0px, calc(100% / 3), 500px);
+  padding: 1% 3%;
+  text-align: center;
+  font-size: clamp(16px, 1.1vw, 16px);
+  letter-spacing: 0.025vw;
+  font-weight: lighter;
+  margin: 0;
+}
+
+/*! HEADER */
 /* Creates a fixed header */
 .header {
   background-color: var(--dark_blue);
@@ -120,6 +163,7 @@ strong {
   transition: all 0.5s;
 }
 
+/*! HOME */
 /* Builds out the home area. */
 .Home {
   display: flex;
@@ -136,13 +180,14 @@ strong {
 
 /* Sets the font size and position of the main tagline below the banner image. */
 .Home p {
-  font-size: clamp(18px, 1.75vw, 27.5px);
+  font-size: clamp(18px, 1.75vw, 20px);
   text-align: center;
   width: 100%;
   margin: 0;
-  padding: 2.5vw;
+  padding: clamp(5px, 2.5vw, 20px);
   color: var(--white);
   background-color: var(--dark_gray);
+  font-weight: bolder;
 }
 
 /* The only way to increase the letter spacing without making it a header */
@@ -150,29 +195,7 @@ strong {
   letter-spacing: 0.25vw;
 }
 
-/* Sets the color scheme of all section headers. */
-.Section_Header {
-  background-color: var(--light_blue);
-  border-top: 5px solid var(--dark_blue);
-  border-bottom: 5px solid var(--dark_blue);
-}
-
-/* Sets the style for all section headers main font. */
-h2 {
-  font-size: clamp(20px, 2.75vw, 27.5px);
-  letter-spacing: 0.25vw;
-  padding-left: 3%;
-  margin-top: 2vw;
-}
-
-/* Sets the style for all section headers secondary font. */
-.Section_Tagline {
-  padding-left: 3%;
-  font-size: clamp(16px, 1.75vw, 25px);
-  margin-top: clamp(-10px, -1.5vw, 0px);
-  font-weight: lighter;
-}
-
+/*! ABOUT US */
 /* Improves the readability of the About Us section. */
 .About .Centered_Flexbox p {
   letter-spacing: 0.05em;
@@ -180,26 +203,7 @@ h2 {
   margin: 0;
 }
 
-/* Standard full-width centered flexbox. */
-.Centered_Flexbox {
-  display: flex;
-  width: 100%;
-  flex-wrap: wrap;
-  justify-content: center;
-  margin: 20px 0;
-}
-
-/* Standard element for a flex box that makes 3 neat columns. */
-.Centered_Flexbox > * {
-  width: calc(100% / 3);
-  padding: 1% 3%;
-  text-align: center;
-  font-size: clamp(16px, 1.1vw, 20px);
-  letter-spacing: 0.025vw;
-  font-weight: lighter;
-  margin: 0;
-}
-
+/*! SERVICES */
 /* Allows p to center to box holding image. */
 .Service {
   position: relative;
@@ -235,6 +239,27 @@ h2 {
   opacity: 0.4;
 }
 
+/*! SAMPLES */
+/* Adds a margin to the bottom of each sample title. */
+.sampleTitle {
+  margin-bottom: 10px;
+}
+
+/* Causes the sample images to fill the flex elements. */
+.Samples img {
+  width: 100%;
+  box-shadow: 5px 5px 5px var(--light_blue);
+  border: 1px solid var(--dark_gray);
+  transition: all 0.25s;
+}
+
+/* Makes the border larger and the drop shadow deeper on hover. */
+.Samples img:hover {
+  box-shadow: 7px 7px 7px var(--dark_blue);
+  border: 2px solid var(--dark_gray);
+}
+
+/*! CLIENTS */
 /* This is necessary to make it so the hover affect doesn't happen on the padding */
 .client {
   width: calc(76% / 3);
@@ -261,6 +286,7 @@ h2 {
   height: 0;
   overflow: hidden;
   transition: all 1s;
+  margin-top: 10px;
 }
 
 /* Changes the color of the buttons when hovered. */
@@ -277,20 +303,7 @@ h2 {
   transition: all 2s;
 }
 
-/* Causes the sample images to fill the flex elements. */
-.Samples img {
-  width: 100%;
-  box-shadow: 5px 5px 5px var(--light_blue);
-  border: 1px solid var(--dark_gray);
-  transition: all 0.25s;
-}
-
-/* Makes the border larger and the drop shadow deeper on hover. */
-.Samples img:hover {
-  box-shadow: 7px 7px 7px var(--dark_blue);
-  border: 2px solid var(--dark_gray);
-}
-
+/*! FOOTER */
 /* Builds the footer at the bottom. */
 footer {
   background-color: var(--dark_blue);
@@ -333,8 +346,16 @@ footer address {
   width: min(24vw, 200px);
 }
 
+/*! SCREENS UNDER 992PX */
 /* Removes the fixed navigation menu when screen is too small, and adjusts flexbox elements to be 2 column. Client needed to change because of margins. Service p needed to change because setting any pixel based font size doesn't work with images.*/
 @media screen and (max-width: 992px) {
+  /*! Repeated Section Headers and Content Flexboxes */
+  /* Standard element for a flex box that makes 2 neat columns. */
+  .Centered_Flexbox > * {
+    width: 50%;
+  }
+
+  /*! HEADER */
   /* Adds extra classes that can be called by the javascript based on user inputs.*/
   .nav--open {
     visibility: visible !important;
@@ -377,41 +398,52 @@ footer address {
     display: block;
   }
 
-  /* Standard element for a flex box that makes 2 neat columns. */
-  .Centered_Flexbox > * {
-    width: 50%;
-  }
-
-  /* Decreases client width. */
-  .client {
-    width: 44%;
-  }
-
+  /*! SERVICES */
   /* Decreases service font size so they fit. */
   .Service p {
     font-size: 2.4vw;
   }
+
+  /*! CLIENTS */
+  /* Decreases client width. */
+  .client {
+    width: 44%;
+  }
 }
 
+/*! SCREENS UNDER 576PX */
 /* Adjusts flexbox elements to be 1 column with extra space on sides. Client needed to change because of margins. Service p needed to change because setting any pixel based font size doesn't work with images.*/
 @media screen and (max-width: 576px) {
+  /*! Repeated Section Headers and Content Flexboxes */
   .Centered_Flexbox > * {
     width: 100%;
     padding: 1% 9%;
   }
 
-  /* Decreases client width further. */
-  .client {
-    width: 94%;
+  /*! HEADER */
+  /* Makes the company name smaller so it fits. */
+  .logoName {
+    font-size: 22px;
   }
 
+  /*! SERVICES  */
   /* Decreases service font size further so they fit. */
   .Service p {
     font-size: clamp(0px, 4vw, 20px);
   }
 
-  /* Makes the company name smaller so it fits. */
-  .logoName {
-    font-size: 24px;
+  /*! CLIENTS */
+  /* Decreases client width further. */
+  .client {
+    width: 94%;
+  }
+}
+
+/*! SCREENS OVER 1400PX */
+@media screen and (min-width: 1400px) {
+  /*! SAMPLES */
+  /* Allows 4 samples on one row on large devices. */
+  .Samples .Centered_Flexbox > * {
+    width: calc(100% / 4);
   }
 }
