@@ -46,6 +46,11 @@ strong {
   letter-spacing: 0.1vw;
 }
 
+/* Adjust letter spacing just for the about section headers */
+.About strong {
+  letter-spacing: 1.5px;
+}
+
 /*! Repeated Section Headers and Content Flexboxes */
 /* Sets the color scheme of all section headers. */
 .Section_Header {
