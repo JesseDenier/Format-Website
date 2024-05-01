@@ -133,6 +133,7 @@ h2 {
   font-size: 30px;
   letter-spacing: 1.5px;
   transition: all 0.25s;
+  margin-bottom: 6px;
 }
 
 /* Displays the navItems nicely without default styles. */
