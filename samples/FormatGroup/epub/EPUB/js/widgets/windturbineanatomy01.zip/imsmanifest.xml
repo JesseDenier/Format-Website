@@ -1,0 +1,63 @@
+<manifest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsproject.org/xsd/imscp_rootv1p1p2 imscp_rootv1p1p2.xsd&#xa;http://www.imsglobal.org/xsd/imsmd_rootv1p2p1 imsmd_rootv1p2p1.xsd&#xa;http://www.adlnet.org/xsd/adlcp_rootv1p2 adlcp_rootv1p2.xsd" xmlns="http://www.imsproject.org/xsd/imscp_rootv1p1p2" version="1" xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_rootv1p2" identifier="com.kidimedia.ibook-widgets.hotspotimage-Wind Turbine Anatomy.wdgt">
+<metadata>
+<schema>ADL SCORM</schema>
+<schemaversion>1.2</schemaversion>
+</metadata>
+<organizations default="hotspotimage-Wind Turbine Anatomy.wdgt">
+<organization identifier="hotspotimage-Wind Turbine Anatomy.wdgt">
+<title>Wind Turbine Anatomy.wdgt</title>
+<item identifierref="resource_1" identifier="item_1">
+<title>hotspotimage-Wind Turbine Anatomy.wdgt</title>
+</item>
+</organization>
+</organizations>
+<resources>
+<resource adlcp:scormtype="sco" type="webcontent" href="index.html" identifier="resource_1">
+<file href="04f2ac7b4cf0e8cb_S_842_768.png"/>
+<file href="910bac4603d3cb00.png"/>
+<file href="config.css"/>
+<file href="config.js"/>
+<file href="config.xml"/>
+<file href="/css/bookwidgets.css"/>
+<file href="/css/bwicons.css"/>
+<file href="/css/fonts/icomoon.eot"/>
+<file href="/css/fonts/icomoon.svg"/>
+<file href="/css/fonts/icomoon.ttf"/>
+<file href="/css/fonts/icomoon.woff"/>
+<file href="/css/hotspotimage.css"/>
+<file href="/css/jquery.dialogsheet.css"/>
+<file href="/css/smoothness/images/ui-bg_flat_0_aaaaaa_40x100.png"/>
+<file href="/css/smoothness/images/ui-bg_flat_75_ffffff_40x100.png"/>
+<file href="/css/smoothness/images/ui-bg_glass_55_fbf9ee_1x400.png"/>
+<file href="/css/smoothness/images/ui-bg_glass_65_ffffff_1x400.png"/>
+<file href="/css/smoothness/images/ui-bg_glass_75_dadada_1x400.png"/>
+<file href="/css/smoothness/images/ui-bg_glass_75_e6e6e6_1x400.png"/>
+<file href="/css/smoothness/images/ui-bg_glass_95_fef1ec_1x400.png"/>
+<file href="/css/smoothness/images/ui-bg_highlight-soft_75_cccccc_1x100.png"/>
+<file href="/css/smoothness/images/ui-icons_222222_256x240.png"/>
+<file href="/css/smoothness/images/ui-icons_2e83ff_256x240.png"/>
+<file href="/css/smoothness/images/ui-icons_454545_256x240.png"/>
+<file href="/css/smoothness/images/ui-icons_888888_256x240.png"/>
+<file href="/css/smoothness/images/ui-icons_cd0a0a_256x240.png"/>
+<file href="/css/smoothness/jquery-ui-1.8.23.css"/>
+<file href="Default.png"/>
+<file href="/img/backbutton@2x.png"/>
+<file href="/img/ibw-ribbon.png"/>
+<file href="index.html"/>
+<file href="Info.plist"/>
+<file href="/js/hammer-2.0.4.min.js"/>
+<file href="/js/hammer.fakemultitouch.js"/>
+<file href="/js/hammer.min.js"/>
+<file href="/js/HotspotImage.css"/>
+<file href="/js/HotspotImage.js"/>
+<file href="/js/jquery-1.8.min.js"/>
+<file href="/js/jquery-ui-1.8.23.min.js"/>
+<file href="/js/jquery.dialogsheet.js"/>
+<file href="/js/jquery.hammer-2.0.0.js"/>
+<file href="/js/jquery.hammer.min.js"/>
+<file href="/js/jquery.ui.touch-punch.min.js"/>
+<file href="/js/vendor.js"/>
+<file href="resourcemap.json"/>
+</resource>
+</resources>
+</manifest>

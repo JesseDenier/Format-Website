@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package version="3.0" xml:lang="en" unique-identifier="pub-id" prefix="cc: http://creativecommons.org/ns# rendition: http://www.idpf.org/vocab/rendition/# kotobee: https://www.kotobee.com/vocab# ibooks: http://vocabulary.itunes.apple.com/rdf/ibooks/vocabulary-extensions-1.0/" xmlns="http://www.idpf.org/2007/opf">
+    <metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+        <dc:title id="title">CEWD Sampler</dc:title>
+
+        <dc:identifier id="pub-id">urn:uuid:99e1a77a-8453-87b9-57a1-ac3e4b4c233f</dc:identifier>
+        <meta name="cover" content="img19" />
+
+        <dc:creator>The Format Group</dc:creator>
+        <dc:publisher>N/A</dc:publisher>
+        <dc:rights>No rights specified</dc:rights>
+        <dc:language>en</dc:language>
+        <dc:description>&lt;p&gt;Discover the high-quality educational materials created by the Format Group. Perfect for online display or integration as a SCORM file within your LMS, our resources redefine the learning experience. For further details, reach out to us at &lt;a href=&quot;mailto:jesse@formatllc.com&quot; target=&quot;_new&quot;&gt;jesse@formatllc.com&lt;/a&gt; or explore more on our website &lt;a href=&quot;http://www.formatllc.com/&quot; target=&quot;_new&quot;&gt;www.formatllc.com&lt;/a&gt;.&lt;/p&gt;
+</dc:description>
+        <meta property="dcterms:modified">2023-11-14T08:29:09Z</meta>
+        <meta property="rendition:layout">reflowable</meta>
+        <meta property="rendition:orientation">auto</meta>
+        <meta property="ibooks:interactive">true</meta>
+        <meta property="ibooks:specified-fonts">false</meta>
+        <meta property="kotobee:version">1.8.10</meta>
+        <meta property="kotobee:build">3064</meta>
+
+        <!-- DAISY requirements -->
+        <meta property="schema:accessMode">textual</meta>
+        <meta property="schema:accessMode">visual</meta>
+        <meta property="schema:accessModeSufficient">textual, visual</meta>
+        <meta property="schema:accessibilityFeature">structuralNavigation</meta> 
+        <meta property="schema:accessibilityHazard">none</meta> 
+        <meta property="schema:accessibilitySummary">The publication contains structural and page navigation.</meta>
+
+
+    </metadata>
+    <manifest>
+        <item id="html0" href="xhtml/epub3se40/OEBPS/CITF_IS_CC_Ch02_2E_1st_for_reflowable_export.xhtml" media-type="application/xhtml+xml"/>
+<item id="html1" href="xhtml/epubkht19/OEBPS/CITF_IS_CC_Ch02_2E_1st_for_reflowable_export-1.xhtml" media-type="application/xhtml+xml"/>
+<item id="html2" href="xhtml/epubpyv0j/OEBPS/CITF_IS_CC_Ch02_2E_1st_for_reflowable_export-2.xhtml" media-type="application/xhtml+xml"/>
+<item id="html3" href="xhtml/epubt31v5/OEBPS/CITF_IS_CC_Ch02_2E_1st_for_reflowable_export-3.xhtml" media-type="application/xhtml+xml"/>
+<item id="html4" href="xhtml/epubts46z/OEBPS/CITF_IS_CC_Ch02_2E_1st_for_reflowable_export-4.xhtml" media-type="application/xhtml+xml"/>
+<item id="html5" href="xhtml/epubb3wdt/OEBPS/CITF_IS_CC_Ch02_2E_1st_for_reflowable_export-5.xhtml" media-type="application/xhtml+xml"/>
+<item id="html6" href="xhtml/epubg885l/OEBPS/citf_is_cc_ch02_2e_1.xhtml" media-type="application/xhtml+xml"/>
+<item id="contents" href="xhtml/raw/contents.xhtml"  properties="nav" media-type="application/xhtml+xml"/>
+<item id="ncx" href="xhtml/raw/contents.ncx"  media-type="application/x-dtbncx+xml"/>
+<item id="img0" href="imgs/accreditedbusinessse.jpg" media-type="image/jpeg"/>
+<item id="img1" href="imgs/div2.jpeg" media-type="image/jpeg"/>
+<item id="img2" href="imgs/div3.jpeg" media-type="image/jpeg"/>
+<item id="img3" href="imgs/div4.jpeg" media-type="image/jpeg"/>
+<item id="img4" href="imgs/line1.jpeg" media-type="image/jpeg"/>
+<item id="img5" href="imgs/line2.jpeg" media-type="image/jpeg"/>
+<item id="img6" href="imgs/line3small.jpg" media-type="image/jpeg"/>
+<item id="img7" href="imgs/nat1small.jpg" media-type="image/jpeg"/>
+<item id="img8" href="imgs/nat2.jpeg" media-type="image/jpeg"/>
+<item id="img9" href="imgs/nat3.jpeg" media-type="image/jpeg"/>
+<item id="img10" href="imgs/sba-wosb-logo02.png" media-type="image/png"/>
+<item id="img11" href="imgs/solar101.jpg" media-type="image/jpeg"/>
+<item id="img12" href="imgs/solar3small.jpg" media-type="image/jpeg"/>
+<item id="img13" href="imgs/solarpanelwithflow02.jpg" media-type="image/jpeg"/>
+<item id="img14" href="imgs/thumbs/thumb_line2.jpeg" media-type="image/jpeg"/>
+<item id="img15" href="imgs/thumbs/thumb_line3small.jpg" media-type="image/jpeg"/>
+<item id="img16" href="imgs/tipproductivityenerg.png" media-type="image/png"/>
+<item id="img17" href="imgs/tipprotocolenergy.png" media-type="image/png"/>
+<item id="img18" href="imgs/tiptradeenergy01.png" media-type="image/png"/>
+<item id="img19" href="imgs/usersjessedenierdesk.png" properties="cover-image" media-type="image/png"/>
+<item id="img20" href="imgs/wind1.jpg" media-type="image/jpeg"/>
+<item id="img21" href="imgs/wind3.jpg" media-type="image/jpeg"/>
+<item id="img22" href="js/widgets/windturbineanatomy01.zip/04f2ac7b4cf0e8cb_S_842_768.png" media-type="image/png"/>
+<item id="img23" href="js/widgets/windturbineanatomy01.zip/910bac4603d3cb00.png" media-type="image/png"/>
+<item id="img24" href="js/widgets/windturbineanatomy01.zip/Default.png" media-type="image/png"/>
+<item id="img25" href="js/widgets/windturbineanatomy01.zip/css/fonts/icomoon.svg" media-type="image/svg+xml"/>
+<item id="img26" href="js/widgets/windturbineanatomy01.zip/css/smoothness/images/ui-bg_flat_0_aaaaaa_40x100.png" media-type="image/png"/>
+<item id="img27" href="js/widgets/windturbineanatomy01.zip/css/smoothness/images/ui-bg_flat_75_ffffff_40x100.png" media-type="image/png"/>
+<item id="img28" href="js/widgets/windturbineanatomy01.zip/css/smoothness/images/ui-bg_glass_55_fbf9ee_1x400.png" media-type="image/png"/>
+<item id="img29" href="js/widgets/windturbineanatomy01.zip/css/smoothness/images/ui-bg_glass_65_ffffff_1x400.png" media-type="image/png"/>
+<item id="img30" href="js/widgets/windturbineanatomy01.zip/css/smoothness/images/ui-bg_glass_75_dadada_1x400.png" media-type="image/png"/>
+<item id="img31" href="js/widgets/windturbineanatomy01.zip/css/smoothness/images/ui-bg_glass_75_e6e6e6_1x400.png" media-type="image/png"/>
+<item id="img32" href="js/widgets/windturbineanatomy01.zip/css/smoothness/images/ui-bg_glass_95_fef1ec_1x400.png" media-type="image/png"/>
+<item id="img33" href="js/widgets/windturbineanatomy01.zip/css/smoothness/images/ui-bg_highlight-soft_75_cccccc_1x100.png" media-type="image/png"/>
+<item id="img34" href="js/widgets/windturbineanatomy01.zip/css/smoothness/images/ui-icons_222222_256x240.png" media-type="image/png"/>
+<item id="img35" href="js/widgets/windturbineanatomy01.zip/css/smoothness/images/ui-icons_2e83ff_256x240.png" media-type="image/png"/>
+<item id="img36" href="js/widgets/windturbineanatomy01.zip/css/smoothness/images/ui-icons_454545_256x240.png" media-type="image/png"/>
+<item id="img37" href="js/widgets/windturbineanatomy01.zip/css/smoothness/images/ui-icons_888888_256x240.png" media-type="image/png"/>
+<item id="img38" href="js/widgets/windturbineanatomy01.zip/css/smoothness/images/ui-icons_cd0a0a_256x240.png" media-type="image/png"/>
+<item id="img39" href="js/widgets/windturbineanatomy01.zip/img/backbutton@2x.png" media-type="image/png"/>
+<item id="img40" href="js/widgets/windturbineanatomy01.zip/img/ibw-ribbon.png" media-type="image/png"/>
+
+    </manifest>
+    <spine toc="ncx">
+        <itemref idref="html0" properties="rendition:layout-reflowable"/>
+<itemref idref="html1" properties="rendition:layout-reflowable"/>
+<itemref idref="html2" properties="rendition:layout-reflowable"/>
+<itemref idref="html3" properties="rendition:layout-reflowable"/>
+<itemref idref="html4" properties="rendition:layout-reflowable"/>
+<itemref idref="html5" properties="rendition:layout-reflowable"/>
+<itemref idref="html6" properties="rendition:layout-reflowable"/>
+
+    </spine>
+
+    
+    
+</package>
