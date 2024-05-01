@@ -1,0 +1,618 @@
+<HotspotImage>
+<label>Wind Turbine Anatomy</label>
+<about>{}</about>
+<resource_substitutions>[["$CREATE_RESOURCES","https://www.bookwidgets.com/create/api/resources"],[":","https://www.bookwidgets.com/a/generator-resources"],["$APPLICATION/Resources","https://www.bookwidgets.com/create/embedded-static-resources"],["$PUBLISHED_RESOURCES","https://widget-assets-eu.bookwidgets.com"]]</resource_substitutions>
+<title searchable="true">Click the hotspots to reveal the parts of the wind turbine</title>
+<background_picture width="842" orientation="1" autosize="true" height="768">https://www.bookwidgets.com/create/api/resources/52/5272981868118016/de/dedc0b1f-240f-495f-a752-48739fc27a04.png?filename=Wind4_AdobeStock_576624886%20%5BConverted%5D.png</background_picture>
+<resize-policy value="Contain entire picture, keep aspect ratio">Contain entire picture, keep aspect ratio</resize-policy>
+<position/>
+<hotspots>
+<TextPopup>
+<text richData="{&quot;blocks&quot;:[{&quot;type&quot;:&quot;unstyled&quot;,&quot;depth&quot;:0,&quot;text&quot;:&quot;Gear box&quot;,&quot;dataRanges&quot;:[],&quot;data&quot;:{}}]}">
+<text searchable="true">&lt;div>&lt;p>Gear box&lt;/p>&lt;/div></text>
+<images/>
+</text>
+<marker-type value="label">Label</marker-type>
+<position/>
+<point>
+<x>421</x>
+<y>179</y>
+</point>
+<marker-image>https://www.bookwidgets.com/a/generator-resources/HotspotImage/images/markericon.png</marker-image>
+<popup-location-preference value="center">Centered over hotspot</popup-location-preference>
+</TextPopup>
+<TextPopup>
+<text richData="{&quot;blocks&quot;:[{&quot;type&quot;:&quot;unstyled&quot;,&quot;depth&quot;:0,&quot;text&quot;:&quot;Generator &amp; nacelle&quot;,&quot;dataRanges&quot;:[],&quot;data&quot;:{}}]}">
+<text searchable="true">&lt;div>&lt;p>Generator &amp;amp; nacelle&lt;/p>&lt;/div></text>
+<images/>
+</text>
+<marker-type value="label">Label</marker-type>
+<position/>
+<point>
+<x>601</x>
+<y>303</y>
+</point>
+<marker-image>https://www.bookwidgets.com/a/generator-resources/HotspotImage/images/markericon.png</marker-image>
+<popup-location-preference value="center">Centered over hotspot</popup-location-preference>
+</TextPopup>
+<TextPopup>
+<text richData="{&quot;blocks&quot;:[{&quot;type&quot;:&quot;unstyled&quot;,&quot;depth&quot;:0,&quot;text&quot;:&quot;Tower&quot;,&quot;dataRanges&quot;:[],&quot;data&quot;:{}}]}">
+<text searchable="true">&lt;div>&lt;p>Tower&lt;/p>&lt;/div></text>
+<images/>
+</text>
+<marker-type value="label">Label</marker-type>
+<position/>
+<point>
+<x>607</x>
+<y>564</y>
+</point>
+<marker-image>https://www.bookwidgets.com/a/generator-resources/HotspotImage/images/markericon.png</marker-image>
+<popup-location-preference value="center">Centered over hotspot</popup-location-preference>
+</TextPopup>
+<TextPopup>
+<text richData="{&quot;blocks&quot;:[{&quot;type&quot;:&quot;unstyled&quot;,&quot;depth&quot;:0,&quot;text&quot;:&quot;Power cables&quot;,&quot;dataRanges&quot;:[],&quot;data&quot;:{}}]}">
+<text searchable="true">&lt;div>&lt;p>Power cables&lt;/p>&lt;/div></text>
+<images/>
+</text>
+<marker-type value="label">Label</marker-type>
+<position/>
+<point>
+<x>604</x>
+<y>437</y>
+</point>
+<marker-image>https://www.bookwidgets.com/a/generator-resources/HotspotImage/images/markericon.png</marker-image>
+<popup-location-preference value="center">Centered over hotspot</popup-location-preference>
+</TextPopup>
+<TextPopup>
+<text richData="{&quot;blocks&quot;:[{&quot;type&quot;:&quot;unstyled&quot;,&quot;depth&quot;:0,&quot;text&quot;:&quot;Transformer&quot;,&quot;dataRanges&quot;:[],&quot;data&quot;:{}}]}">
+<text searchable="true">&lt;div>&lt;p>Transformer&lt;/p>&lt;/div></text>
+<images/>
+</text>
+<marker-type value="label">Label</marker-type>
+<position/>
+<point>
+<x>609</x>
+<y>617</y>
+</point>
+<marker-image>https://www.bookwidgets.com/a/generator-resources/HotspotImage/images/markericon.png</marker-image>
+<popup-location-preference value="center">Centered over hotspot</popup-location-preference>
+</TextPopup>
+<TextPopup>
+<text richData="{&quot;blocks&quot;:[{&quot;type&quot;:&quot;unstyled&quot;,&quot;depth&quot;:0,&quot;text&quot;:&quot;Rotor hub&quot;,&quot;dataRanges&quot;:[],&quot;data&quot;:{}}]}">
+<text searchable="true">&lt;div>&lt;p>Rotor hub&lt;/p>&lt;/div></text>
+<images/>
+</text>
+<marker-type value="label">Label</marker-type>
+<position/>
+<point>
+<x>170</x>
+<y>294</y>
+</point>
+<marker-image>https://www.bookwidgets.com/a/generator-resources/HotspotImage/images/markericon.png</marker-image>
+<popup-location-preference value="center">Centered over hotspot</popup-location-preference>
+</TextPopup>
+<TextPopup>
+<text richData="{&quot;blocks&quot;:[{&quot;type&quot;:&quot;unstyled&quot;,&quot;depth&quot;:0,&quot;text&quot;:&quot;Rotor blade&quot;,&quot;dataRanges&quot;:[],&quot;data&quot;:{}}]}">
+<text searchable="true">&lt;div>&lt;p>Rotor blade&lt;/p>&lt;/div></text>
+<images/>
+</text>
+<marker-type value="label">Label</marker-type>
+<position/>
+<point>
+<x>171</x>
+<y>547</y>
+</point>
+<marker-image>https://www.bookwidgets.com/a/generator-resources/HotspotImage/images/markericon.png</marker-image>
+<popup-location-preference value="center">Centered over hotspot</popup-location-preference>
+</TextPopup>
+</hotspots>
+<backbutton_label searchable="true"/>
+<instructions_title searchable="true">Instructions</instructions_title>
+<instructions richData="{&quot;blocks&quot;:[{&quot;text&quot;:&quot;&quot;,&quot;type&quot;:&quot;unstyled&quot;,&quot;dataRanges&quot;:[]}]}">
+<text searchable="true">&lt;div>&lt;p/>&lt;/div></text>
+<images/>
+</instructions>
+<uuid2>{cc182e10-82f1-11ee-b753-dd190ce96d78}</uuid2>
+<LocalizationMap>
+<localization>
+<phrase>Hotspots accessed</phrase>
+<translation/>
+</localization>
+<localization>
+<phrase>Hotspot accesses</phrase>
+<translation/>
+</localization>
+<localization>
+<phrase>Authentication error.</phrase>
+<translation/>
+</localization>
+<localization>
+<phrase>Cancel</phrase>
+<translation/>
+</localization>
+<localization>
+<phrase>Could not connect to server, check your internet connection.</phrase>
+<translation/>
+</localization>
+<localization>
+<phrase>Email</phrase>
+<translation/>
+</localization>
+<localization>
+<phrase>Forgot password?</phrase>
+<translation/>
+</localization>
+<localization>
+<phrase>Not logged in</phrase>
+<translation/>
+</localization>
+<localization>
+<phrase>OK</phrase>
+<translation/>
+</localization>
+<localization>
+<phrase>Offline</phrase>
+<translation/>
+</localization>
+<localization>
+<phrase>Online</phrase>
+<translation/>
+</localization>
+<localization>
+<phrase>Password</phrase>
+<translation/>
+</localization>
+<localization>
+<phrase>Please sign in</phrase>
+<translation/>
+</localization>
+<localization>
+<phrase>Received error trying to sign in</phrase>
+<translation/>
+</localization>
+<localization>
+<phrase>School code</phrase>
+<translation/>
+</localization>
+<localization>
+<phrase>Server error when signing in.</phrase>
+<translation/>
+</localization>
+<localization>
+<phrase>Sign in</phrase>
+<translation/>
+</localization>
+<localization>
+<phrase>Sign in failed</phrase>
+<translation/>
+</localization>
+<localization>
+<phrase>Sign in to save your answers online</phrase>
+<translation/>
+</localization>
+<localization>
+<phrase>Sign in using</phrase>
+<translation/>
+</localization>
+<localization>
+<phrase>Sign in using email and password</phrase>
+<translation/>
+</localization>
+<localization>
+<phrase>Sign in using school account</phrase>
+<translation/>
+</localization>
+<localization>
+<phrase>Sign out</phrase>
+<translation/>
+</localization>
+<localization>
+<phrase>Sign up here</phrase>
+<translation/>
+</localization>
+<localization>
+<phrase>Username</phrase>
+<translation/>
+</localization>
+<localization>
+<phrase>Waiting</phrase>
+<translation/>
+</localization>
+<localization>
+<phrase>Waiting for account sign in to complete...</phrase>
+<translation/>
+</localization>
+<localization>
+<phrase>Widget configuration error: school doesn't exist</phrase>
+<translation/>
+</localization>
+<localization>
+<phrase>Wrong username or password, please try again.</phrase>
+<translation/>
+</localization>
+<localization>
+<phrase>You need to be signed in to use this widget.</phrase>
+<translation/>
+</localization>
+<localization>
+<phrase>You're currently offline and logged in as user:</phrase>
+<translation/>
+</localization>
+<localization>
+<phrase>You're currently online and logged in as user:</phrase>
+<translation/>
+</localization>
+<localization>
+<phrase>You're offline</phrase>
+<translation/>
+</localization>
+<localization>
+<phrase>Retrying...</phrase>
+<translation/>
+</localization>
+<localization>
+<phrase>Reload</phrase>
+<translation/>
+</localization>
+<localization>
+<phrase>Your progress on this activity will be shared with your teacher.</phrase>
+<translation/>
+</localization>
+<localization>
+<phrase>Your answers couldn't be loaded because the question changed</phrase>
+<translation/>
+</localization>
+<localization>
+<phrase>Some of your answers couldn't be loaded because the question changed</phrase>
+<translation/>
+</localization>
+<localization>
+<phrase>Audio player</phrase>
+<translation/>
+</localization>
+<localization>
+<phrase>play</phrase>
+<translation/>
+</localization>
+<localization>
+<phrase>pause</phrase>
+<translation/>
+</localization>
+<localization>
+<phrase>stop</phrase>
+<translation/>
+</localization>
+</LocalizationMap>
+<DesignConstants template="Light Background" widget_color="#3498DB" widget_font="Verdana" widget_backgroundimage="">
+<constant>
+<name>hiddenborderleft</name>
+<value>0px, solid, #000000, 255</value>
+<kind>BorderLeft</kind>
+</constant>
+<constant>
+<name>hiddenborderright</name>
+<value>0px, solid, #000000, 255</value>
+<kind>BorderRight</kind>
+</constant>
+<constant>
+<name>hiddenbordertop</name>
+<value>0px, solid, #000000, 255</value>
+<kind>BorderTop</kind>
+</constant>
+<constant>
+<name>hiddenborderbottom</name>
+<value>0px, solid, #000000, 255</value>
+<kind>BorderBottom</kind>
+</constant>
+<constant>
+<name>hiddenborderradius</name>
+<value>0px, 0px, 0px, 0px</value>
+<kind>BorderRadius</kind>
+</constant>
+<constant>
+<name>hiddenbackground</name>
+<value>#ffffff, #ffffff, 1, 1</value>
+<kind>BackgroundGradient</kind>
+</constant>
+<constant>
+<name>hiddenshadow</name>
+<value>0px, 0px, 0px, 0px, #888, 255</value>
+<kind>BoxShadow</kind>
+</constant>
+<constant>
+<name>labelborderleft</name>
+<value>1px, solid, #3498DB, 255</value>
+<kind>BorderLeft</kind>
+</constant>
+<constant>
+<name>labelborderright</name>
+<value>1px, solid, #3498DB, 255</value>
+<kind>BorderRight</kind>
+</constant>
+<constant>
+<name>labelbordertop</name>
+<value>1px, solid, #3498DB, 255</value>
+<kind>BorderTop</kind>
+</constant>
+<constant>
+<name>labelborderbottom</name>
+<value>1px, solid, #3498DB, 255</value>
+<kind>BorderBottom</kind>
+</constant>
+<constant>
+<name>labelborderradius</name>
+<value>10px, 10px, 10px, 10px</value>
+<kind>BorderRadius</kind>
+</constant>
+<constant>
+<name>labelbackground</name>
+<value>#ffffff, #ffffff, 255, 255</value>
+<kind>BackgroundGradient</kind>
+</constant>
+<constant>
+<name>labelforeground</name>
+<value>#010539</value>
+<kind>TextColor</kind>
+</constant>
+<constant>
+<name>labelfont</name>
+<value>Verdana, font-stack, 20</value>
+<kind>TextFont</kind>
+</constant>
+<constant>
+<name>labelshadow</name>
+<value>0px, 0px, 0px, 0px, #888, 255</value>
+<kind>BoxShadow</kind>
+</constant>
+<constant>
+<name>pointerborderleft</name>
+<value>1px, solid, #3498DB, 255</value>
+<kind>BorderLeft</kind>
+</constant>
+<constant>
+<name>pointerborderright</name>
+<value>1px, solid, #3498DB, 255</value>
+<kind>BorderRight</kind>
+</constant>
+<constant>
+<name>pointerbordertop</name>
+<value>1px, solid, #3498DB, 255</value>
+<kind>BorderTop</kind>
+</constant>
+<constant>
+<name>pointerborderbottom</name>
+<value>1px, solid, #3498DB, 255</value>
+<kind>BorderBottom</kind>
+</constant>
+<constant>
+<name>popupbackground</name>
+<value>#ffffff, #ffffff, 255, 255</value>
+<kind>BackgroundGradient</kind>
+</constant>
+<constant>
+<name>popupborderleft</name>
+<value>1px, solid, #3498DB, 255</value>
+<kind>BorderLeft</kind>
+</constant>
+<constant>
+<name>popupborderright</name>
+<value>1px, solid, #3498DB, 255</value>
+<kind>BorderRight</kind>
+</constant>
+<constant>
+<name>popupbordertop</name>
+<value>1px, solid, #3498DB, 255</value>
+<kind>BorderTop</kind>
+</constant>
+<constant>
+<name>popupborderbottom</name>
+<value>1px, solid, #3498DB, 255</value>
+<kind>BorderBottom</kind>
+</constant>
+<constant>
+<name>popupborderradius</name>
+<value>10px, 10px, 10px, 10px</value>
+<kind>BorderRadius</kind>
+</constant>
+<constant>
+<name>popupshadow</name>
+<value>0px, 0px, 0px, 0px, #888, 255</value>
+<kind>BoxShadow</kind>
+</constant>
+<constant>
+<name>buttonstrokecolor</name>
+<value>#3498DB</value>
+<kind>StrokeColor</kind>
+</constant>
+<constant>
+<name>buttonfillcolor</name>
+<value>#ffffff</value>
+<kind>FillColor</kind>
+</constant>
+<constant>
+<name>labelcolor</name>
+<value>#010539</value>
+</constant>
+<constant>
+<name>titlefont</name>
+<value>Verdana,font-stack,20</value>
+</constant>
+<constant>
+<name>titlecolor</name>
+<value>#3498DB</value>
+</constant>
+<constant>
+<name>titlebackground</name>
+<value>#ffffff, #ffffff, 0, 0</value>
+</constant>
+<constant>
+<name>titleborderbottom</name>
+<value>1px, solid, #bbbbbb, 255</value>
+</constant>
+<constant>
+<name>popupfont</name>
+<value>Verdana,font-stack,14</value>
+</constant>
+<constant>
+<name>popupcolor</name>
+<value>#000000</value>
+</constant>
+<constant>
+<name>textlinkcolor</name>
+<value>#0000ff</value>
+</constant>
+<constant>
+<name>dialogborderradius</name>
+<value>24px, 24px, 24px, 24px</value>
+</constant>
+<constant>
+<name>dialogshadow</name>
+<value>0px, 2px, 4px, 1px, #010539, 48</value>
+</constant>
+<constant>
+<name>dialogbackground</name>
+<value>#3498DB, #3498DB, 255, 255</value>
+</constant>
+<constant>
+<name>dialogborderleft</name>
+<value>0px, solid, #000000, 255</value>
+</constant>
+<constant>
+<name>dialogborderright</name>
+<value>0px, solid, #000000, 255</value>
+</constant>
+<constant>
+<name>dialogbordertop</name>
+<value>0px, solid, #000000, 255</value>
+</constant>
+<constant>
+<name>dialogborderbottom</name>
+<value>0px, solid, #000000, 255</value>
+</constant>
+<constant>
+<name>dialogcontentfont</name>
+<value>Verdana,font-stack,14</value>
+</constant>
+<constant>
+<name>dialogcontentcolor</name>
+<value>#ffffff</value>
+</constant>
+<constant>
+<name>dialogwarningbackground</name>
+<value>#ffa500, #ffa500, 255, 255</value>
+</constant>
+<constant>
+<name>dialogwarningcolor</name>
+<value>#950a0a</value>
+</constant>
+<constant>
+<name>dialoglinkfont</name>
+<value>Verdana,font-stack,14</value>
+</constant>
+<constant>
+<name>dialoglinkcolor</name>
+<value>#0000ff</value>
+</constant>
+<constant>
+<name>dialogtitlefont</name>
+<value>Verdana,font-stack,bold,18</value>
+</constant>
+<constant>
+<name>dialogtitleborderradius</name>
+<value>0px, 0px, 0px, 0px</value>
+</constant>
+<constant>
+<name>dialogtitleshadow</name>
+<value>0px, 0px, 0px, 0px, #888, 255</value>
+</constant>
+<constant>
+<name>dialogtitlecolor</name>
+<value>#ffffff</value>
+</constant>
+<constant>
+<name>dialogtitlebackground</name>
+<value>#ffffff, #ffffff, 0, 0</value>
+</constant>
+<constant>
+<name>dialogtitleborderleft</name>
+<value>0px, solid, #000000, 255</value>
+</constant>
+<constant>
+<name>dialogtitleborderright</name>
+<value>0px, solid, #000000, 255</value>
+</constant>
+<constant>
+<name>dialogtitlebordertop</name>
+<value>0px, solid, #000000, 255</value>
+</constant>
+<constant>
+<name>dialogtitleborderbottom</name>
+<value>0px, solid, #000000, 255</value>
+</constant>
+<constant>
+<name>dialogbuttonfont</name>
+<value>Verdana,font-stack,16</value>
+</constant>
+<constant>
+<name>dialogbuttonborderradius</name>
+<value>24px, 24px, 24px, 24px</value>
+</constant>
+<constant>
+<name>dialogbuttonshadow</name>
+<value>0px, 0px, 0px, 0px, #888, 255</value>
+</constant>
+<constant>
+<name>dialogbuttoncolor</name>
+<value>#ffffff</value>
+</constant>
+<constant>
+<name>dialogbuttonbackground</name>
+<value>#ffffff, #ffffff, 0, 0</value>
+</constant>
+<constant>
+<name>dialogbuttonborderleft</name>
+<value>1px, solid, #ffffff, 255</value>
+</constant>
+<constant>
+<name>dialogbuttonborderright</name>
+<value>1px, solid, #ffffff, 255</value>
+</constant>
+<constant>
+<name>dialogbuttonbordertop</name>
+<value>1px, solid, #ffffff, 255</value>
+</constant>
+<constant>
+<name>dialogbuttonborderbottom</name>
+<value>1px, solid, #ffffff, 255</value>
+</constant>
+<constant>
+<name>dialogbuttonpadding</name>
+<value>8px, 12px, 8px, 12px</value>
+</constant>
+<constant>
+<name>dialogbuttonoutline</name>
+<value>2px, dotted, #ffffff, 127</value>
+</constant>
+<constant>
+<name>audio-playerbackground</name>
+<value>#88badb, #88badb, 255, 255</value>
+</constant>
+<constant>
+<name>audio-playerborderleft</name>
+<value>0px, solid, #000000, 255</value>
+</constant>
+<constant>
+<name>audio-playerborderright</name>
+<value>0px, solid, #000000, 255</value>
+</constant>
+<constant>
+<name>audio-playerbordertop</name>
+<value>0px, solid, #000000, 255</value>
+</constant>
+<constant>
+<name>audio-playerborderbottom</name>
+<value>0px, solid, #000000, 255</value>
+</constant>
+</DesignConstants>
+<cover width="0" orientation="1" autosize="true" height="0"/>
+</HotspotImage>

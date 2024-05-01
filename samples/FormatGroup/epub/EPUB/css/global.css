@@ -1,0 +1,20 @@
+/*** Place your styles below ***/ 
+
+h1 {
+  font-size:2.8em;
+  font-weight: bold; 
+  color: white;
+}
+.subhead {
+  font-size: 2.1em;
+  margin-top: -1vh;
+}
+h2 {
+  font-weight: bold;
+  color: #DC143C;
+}
+h3 {
+  font-size:1.5em;
+  font-weight: bold;
+  color: indigo;
+}

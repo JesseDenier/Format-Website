@@ -1,0 +1,193 @@
+#title-toolbar #loginbutton {
+  top: 5px;
+}
+.hotspot {
+  position: absolute;
+  cursor: pointer;
+}
+
+.hotspot.label {
+  text-align: center;
+  overflow: visible;
+}
+
+.hotspot.label .content {
+  position: absolute;
+  border: 3px solid black;
+  padding: 10px;
+}
+
+.hotspot.image {
+  overflow: visible;
+}
+.hotspot.image .content {
+  position: absolute;
+}
+
+.popup {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-direction: normal;
+  -moz-box-direction: normal;
+  -webkit-box-orient: horizontal;
+  -moz-box-orient: horizontal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-box-pack: center;
+  -moz-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-content: stretch;
+  -ms-flex-line-pack: stretch;
+  align-content: stretch;
+  -webkit-box-align: start;
+  -moz-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+
+  position: absolute;
+
+  border: 2px solid #888888;
+  border-radius: 10px;
+  padding: 10px;
+  background-size: auto;
+  min-width: 50px;
+  min-height: 50px;
+
+  max-width: 95%;
+  max-height: 95%;
+
+  overflow-x: hidden;
+  overflow-y: auto;
+
+  box-sizing: border-box;
+}
+
+.popup.hidden:not(.almostvisible) {
+  display: none;
+}
+
+.popup.hidden.almostvisible {
+  opacity: 0.01;
+}
+.popupcontent {
+  -webkit-box-ordinal-group: 1;
+  -moz-box-ordinal-group: 1;
+  -webkit-order: 0;
+  -ms-flex-order: 0;
+  order: 0;
+  -webkit-box-flex: 0;
+  -moz-box-flex: 0;
+  -webkit-flex: 0 1 auto;
+  -ms-flex: 0 1 auto;
+  flex: 0 1 auto;
+
+  padding: 0px;
+  margin: 0px;
+
+  max-width: 100%;
+  max-height: 100%;
+  overflow: hidden;
+}
+
+.popupcontent.bw-richtext.large {
+  min-width: 300px;
+}
+.popupcontent img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.triangle {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  overflow: hidden;
+  border: none;
+}
+
+.triangle:after {
+  content: "";
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  box-shadow: -1px -1px 10px -2px rgba(0, 0, 0, 0.5);
+  border: 1px solid #888888;
+}
+
+.lefttriangle:after {
+  top: 13px;
+  left: 38px;
+}
+.righttriangle:after {
+  top: 13px;
+  left: -14px;
+}
+.toptriangle:after {
+  top: 38px;
+  left: 13px;
+}
+.bottomtriangle:after {
+  top: -14px;
+  left: 13px;
+}
+
+.webpopup {
+  overflow: auto;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.webpopup iframe {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+#tools {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  height: 38px;
+  width: 88px;
+}
+
+#zoomin,
+#zoomout {
+  width: 36px;
+  height: 36px;
+  margin: 3px;
+}
+circle {
+  stroke: black;
+  stroke-width: 1;
+  fill: orange;
+}
+
+line {
+  stroke: black;
+  stroke-width: 3;
+}
+
+#tools.hidden {
+  display: none;
+}
+
+.ibw-platform-ipad-bookwidgets #zoomin,
+.ibw-platform-ipad-bookwidgets #zoomout,
+.ibw-platform-android-chrome #zoomin,
+.ibw-platform-android-chrome #zoomout,
+.ibw-platform-android #zoomin,
+.ibw-platform-android #zoomout {
+  display: none;
+}
